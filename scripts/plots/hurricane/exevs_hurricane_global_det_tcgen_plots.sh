@@ -7,8 +7,8 @@ export cartopyDataDir=${cartopyDataDir:-/apps/ops/prod/data/cartopy}
 
 export YEAR=${YYYY}
 export TCGENdays="TC Genesis (05/01/${YEAR}-11/30/${YEAR})"
-export basinlist="al ep wp"
-export modellist="gfs ecmwf cmc"
+export basinlist="al ep"
+export modellist="gfs"
 
 noaa_logo() {
   TargetImageName=$1

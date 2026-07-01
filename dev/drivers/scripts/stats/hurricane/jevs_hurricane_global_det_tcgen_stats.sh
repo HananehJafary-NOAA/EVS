@@ -3,7 +3,7 @@
 #PBS -j oe
 #PBS -A VERF-DEV
 #PBS -q dev
-#PBS -l select=1:ncpus=1:mem=4GB
+#PBS -l select=1:ncpus=1:mem=20GB
 ##PBS -l place=vscatter:exclhost,select=1:ncpus=128:ompthreads=1
 #PBS -l walltime=00:10:00
 #PBS -l debug=true
@@ -43,7 +43,8 @@ export COMINadeckJTWC=/lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025
 export COMINbdeckJTWC=/lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck
 
 export DATAROOT=/lfs/h2/emc/stmp/$USER/evs_test/$envir/tmp
-export COMOUT=/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/$NET/$evs_ver_2d
+#export COMOUT=/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/$NET/$evs_ver_2d
+export COMOUT=/lfs/h2/emc/ptmp/hananeh.jafary/$NET/$evs_ver_2d
 export KEEPDATA=NO
 
 # CALL executable job script here

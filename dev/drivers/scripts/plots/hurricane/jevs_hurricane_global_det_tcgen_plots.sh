@@ -3,14 +3,14 @@
 #PBS -j oe
 #PBS -A VERF-DEV
 #PBS -q dev
-#PBS -l select=1:ncpus=1:mem=4GB
+#PBS -l select=1:ncpus=1:mem=20GB
 ##PBS -l place=vscatter:exclhost,select=1:ncpus=128:ompthreads=1
 #PBS -l walltime=00:30:00
 #PBS -l debug=true
 
 set -x
 
-export HOMEevs=/lfs/h2/emc/vpppg/noscrub/$USER/EVS
+export HOMEevs=/lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/EVS
 source ${HOMEevs}/versions/run.ver
 
 evs_ver_2d=$(echo $evs_ver | cut -d'.' -f1-2)
@@ -33,16 +33,16 @@ module load prod_envir/${prod_envir_ver}
 source ${HOMEevs}/dev/modulefiles/${COMPONENT}/${COMPONENT}_${STEP}.sh
 
 #Set PDY to override setpdy.sh called in the j-jobs
-export PDY=20241231
+export PDY=20251231
 
 #Define the directories of your TC genesis stats files
-export COMINstats=/lfs/h2/emc/vpppg/noscrub/$USER/evs/${evs_ver_2d}/stats/${COMPONENT}/${RUN}/${VERIF_CASE}
+export COMINstats=/lfs/h2/emc/ptmp/hananeh.jafary/evs/${evs_ver_2d}/stats/${COMPONENT}/${RUN}/${VERIF_CASE}
 
 #Define the directories of your NOAA/NWS logos
 export FIXevs=/lfs/h2/emc/vpppg/noscrub/emc.vpppg/verification/EVS_fix
 
 export DATAROOT=/lfs/h2/emc/stmp/$USER/evs_test/$envir/tmp
-export COMOUT=/lfs/h2/emc/vpppg/noscrub/$USER/$NET/$evs_ver_2d
+export COMOUT=/lfs/h2/emc/ptmp/hananeh.jafary/$NET/$evs_ver_2d
 export KEEPDATA=NO
 
 
