@@ -1,6 +1,6 @@
-PBS: Running prologue on parent mom node: nid001019...
-Job 126502174.dbqs01 nodelist: nid001019
-Job 126502174.dbqs01 - Prologue complete. Execution time: 4 seconds
+PBS: Running prologue on parent mom node: nid003623...
+Job 126519782.dbqs01 nodelist: nid003623
+Job 126519782.dbqs01 - Prologue complete. Execution time: 4 seconds
 I'm in
 dogwood
 and the system is
@@ -159,8 +159,8 @@ sec_profile:BACKUPSYS
 ++ cyc=00
 ++ export job=jevs_hurricane_global_det_tcgen_stats_00
 ++ job=jevs_hurricane_global_det_tcgen_stats_00
-++ export jobid=jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01
-++ jobid=jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01
+++ export jobid=jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01
+++ jobid=jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01
 ++ module reset
 +++ /usr/share/lmod/lmod/libexec/lmod bash reset
 Resetting modules to system default. Reseting $MODULEPATH back to system default. All extra directories will be removed from $MODULEPATH.
@@ -1433,17 +1433,17 @@ Currently Loaded Modules:
 ++ export KEEPDATA=NO
 ++ KEEPDATA=NO
 ++ /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/EVS/jobs/JEVS_HURRICANE_STATS
-Wed Jul  1 20:05:25 UTC 2026
- 0 + export jobid=jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01
- 0 + jobid=jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01
- 0 + export DATA=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01
- 0 + DATA=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01
- 0 + mkdir -p /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01
- 0 + cd /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01
+Wed Jul  1 22:21:12 UTC 2026
+ 0 + export jobid=jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01
+ 0 + jobid=jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01
+ 0 + export DATA=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01
+ 0 + DATA=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01
+ 0 + mkdir -p /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01
+ 0 + cd /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01
  0 + export cycle=t00z
  0 + cycle=t00z
- 0 + export jlogfile=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/jlogfile.jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01
- 0 + jlogfile=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/jlogfile.jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01
+ 0 + export jlogfile=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/jlogfile.jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01
+ 0 + jlogfile=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/jlogfile.jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01
  0 + export NET=evs
  0 + NET=evs
  0 + export COMPONENT=hurricane
@@ -1454,8 +1454,8 @@ Wed Jul  1 20:05:25 UTC 2026
  0 + STEP=stats
  0 + export VERIF_CASE=tcgen
  0 + VERIF_CASE=tcgen
- 0 + export pgmout=OUTPUT.3473180
- 0 + pgmout=OUTPUT.3473180
+ 0 + export pgmout=OUTPUT.69351
+ 0 + pgmout=OUTPUT.69351
  0 + export pgmerr=errfile
  0 + pgmerr=errfile
  0 + export SENDECF=NO
@@ -1498,8 +1498,8 @@ PDY=20251231
  0 + mkdir -m 775 -p /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen
 mkdir: cannot create directory ‘/lfs/h2/emc/ens/noscrube’: Disk quota exceeded
   0 + hostname
- 0 + msg='HAS BEGUN on nid001019'
- 0 + postmsg /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/jlogfile.jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01 'HAS BEGUN on nid001019'
+ 0 + msg='HAS BEGUN on nid003623'
+ 0 + postmsg /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/jlogfile.jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01 'HAS BEGUN on nid003623'
  0 + /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/EVS/scripts/stats/hurricane/exevs_hurricane_global_det_tcgen_stats.sh
  0 + export 'PS4= + exevs_hurricane_global_det_tcgen_stats.sh line $LINENO: '
  0 + PS4=' + exevs_hurricane_global_det_tcgen_stats.sh line $LINENO: '
@@ -1507,37 +1507,37 @@ mkdir: cannot create directory ‘/lfs/h2/emc/ens/noscrube’: Disk quota exceed
  + exevs_hurricane_global_det_tcgen_stats.sh line 5: MetOnMachine=/apps/ops/prod/libs/intel/19.1.3.304/met/12.0.1
  + exevs_hurricane_global_det_tcgen_stats.sh line 6: export YEAR=2025
  + exevs_hurricane_global_det_tcgen_stats.sh line 6: YEAR=2025
- + exevs_hurricane_global_det_tcgen_stats.sh line 7: export 'basinlist=al ep wp'
- + exevs_hurricane_global_det_tcgen_stats.sh line 7: basinlist='al ep wp'
- + exevs_hurricane_global_det_tcgen_stats.sh line 8: export 'modellist=gfs ecmwf cmc'
- + exevs_hurricane_global_det_tcgen_stats.sh line 8: modellist='gfs ecmwf cmc'
+ + exevs_hurricane_global_det_tcgen_stats.sh line 7: export 'basinlist=al ep'
+ + exevs_hurricane_global_det_tcgen_stats.sh line 7: basinlist='al ep'
+ + exevs_hurricane_global_det_tcgen_stats.sh line 8: export modellist=gfs
+ + exevs_hurricane_global_det_tcgen_stats.sh line 8: modellist=gfs
  + exevs_hurricane_global_det_tcgen_stats.sh line 10: for basin in $basinlist
  + exevs_hurricane_global_det_tcgen_stats.sh line 12: for model in $modellist
- + exevs_hurricane_global_det_tcgen_stats.sh line 15: export DATAroot=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen
- + exevs_hurricane_global_det_tcgen_stats.sh line 15: DATAroot=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen
- + exevs_hurricane_global_det_tcgen_stats.sh line 16: '[' '!' -d /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 16: mkdir -p /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen
- + exevs_hurricane_global_det_tcgen_stats.sh line 17: export INPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_gfs
- + exevs_hurricane_global_det_tcgen_stats.sh line 17: INPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_gfs
- + exevs_hurricane_global_det_tcgen_stats.sh line 18: '[' '!' -d /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_gfs ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 18: mkdir -p /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_gfs
- + exevs_hurricane_global_det_tcgen_stats.sh line 19: export OUTPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_gfs
- + exevs_hurricane_global_det_tcgen_stats.sh line 19: OUTPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_gfs
- + exevs_hurricane_global_det_tcgen_stats.sh line 20: '[' '!' -d /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_gfs ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 20: mkdir -p /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_gfs
+ + exevs_hurricane_global_det_tcgen_stats.sh line 15: export DATAroot=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen
+ + exevs_hurricane_global_det_tcgen_stats.sh line 15: DATAroot=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen
+ + exevs_hurricane_global_det_tcgen_stats.sh line 16: '[' '!' -d /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen ']'
+ + exevs_hurricane_global_det_tcgen_stats.sh line 16: mkdir -p /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen
+ + exevs_hurricane_global_det_tcgen_stats.sh line 17: export INPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/input/al_gfs
+ + exevs_hurricane_global_det_tcgen_stats.sh line 17: INPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/input/al_gfs
+ + exevs_hurricane_global_det_tcgen_stats.sh line 18: '[' '!' -d /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/input/al_gfs ']'
+ + exevs_hurricane_global_det_tcgen_stats.sh line 18: mkdir -p /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/input/al_gfs
+ + exevs_hurricane_global_det_tcgen_stats.sh line 19: export OUTPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/al_gfs
+ + exevs_hurricane_global_det_tcgen_stats.sh line 19: OUTPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/al_gfs
+ + exevs_hurricane_global_det_tcgen_stats.sh line 20: '[' '!' -d /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/al_gfs ']'
+ + exevs_hurricane_global_det_tcgen_stats.sh line 20: mkdir -p /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/al_gfs
  + exevs_hurricane_global_det_tcgen_stats.sh line 22: '[' gfs = gfs ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 23: cp /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/TCgen/gfs_genesis_2025 /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_gfs/ALLgenesis_2025
+ + exevs_hurricane_global_det_tcgen_stats.sh line 23: cp /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/TCgen/gfs_genesis_2025 /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/input/al_gfs/ALLgenesis_2025
  + exevs_hurricane_global_det_tcgen_stats.sh line 24: export INIT_FREQ=6
  + exevs_hurricane_global_det_tcgen_stats.sh line 24: INIT_FREQ=6
  + exevs_hurricane_global_det_tcgen_stats.sh line 33: '[' al = al ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 34: cp /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal012025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal022025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal032025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal042025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal052025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal062025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal072025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal082025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal092025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal102025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal112025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal122025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal132025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal902025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal912025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal922025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal932025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal942025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal952025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal962025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal972025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal982025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal992025.dat /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_gfs/.
- + exevs_hurricane_global_det_tcgen_stats.sh line 35: cp /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal012025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal022025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal032025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal042025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal052025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal062025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal072025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal082025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal092025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal102025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal112025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal122025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal132025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal902025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal912025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal922025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal932025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal942025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal952025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal962025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal972025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal982025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal992025.dat /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_gfs/.
+ + exevs_hurricane_global_det_tcgen_stats.sh line 34: cp /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal012025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal022025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal032025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal042025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal052025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal062025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal072025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal082025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal092025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal102025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal112025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal122025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal132025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal902025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal912025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal922025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal932025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal942025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal952025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal962025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal972025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal982025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal992025.dat /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/input/al_gfs/.
+ + exevs_hurricane_global_det_tcgen_stats.sh line 35: cp /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal012025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal022025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal032025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal042025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal052025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal062025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal072025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal082025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal092025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal102025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal112025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal122025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal132025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal902025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal912025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal922025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal932025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal942025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal952025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal962025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal972025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal982025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal992025.dat /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/input/al_gfs/.
  + exevs_hurricane_global_det_tcgen_stats.sh line 36: export BASIN_MASK=AL
  + exevs_hurricane_global_det_tcgen_stats.sh line 36: BASIN_MASK=AL
- + exevs_hurricane_global_det_tcgen_stats.sh line 37: grep 'AL,  9' /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_gfs/ALLgenesis_2025
- + exevs_hurricane_global_det_tcgen_stats.sh line 38: grep HC, /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_gfs/ALLgenesis_2025
- + exevs_hurricane_global_det_tcgen_stats.sh line 39: grep TG, /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_gfs/ALLgenesis_2025
- + exevs_hurricane_global_det_tcgen_stats.sh line 57: cd /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_gfs
+ + exevs_hurricane_global_det_tcgen_stats.sh line 37: grep 'AL,  9' /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/input/al_gfs/ALLgenesis_2025
+ + exevs_hurricane_global_det_tcgen_stats.sh line 38: grep HC, /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/input/al_gfs/ALLgenesis_2025
+ + exevs_hurricane_global_det_tcgen_stats.sh line 39: grep TG, /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/input/al_gfs/ALLgenesis_2025
+ + exevs_hurricane_global_det_tcgen_stats.sh line 57: cd /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/al_gfs
  + exevs_hurricane_global_det_tcgen_stats.sh line 58: cp /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/EVS/parm/metplus_config/stats/hurricane/TCGen_template.conf .
  + exevs_hurricane_global_det_tcgen_stats.sh line 59: export VALID_FREQ=6
  + exevs_hurricane_global_det_tcgen_stats.sh line 59: VALID_FREQ=6
@@ -1558,32 +1558,32 @@ mkdir: cannot create directory ‘/lfs/h2/emc/ens/noscrube’: Disk quota exceed
  + exevs_hurricane_global_det_tcgen_stats.sh line 68: export SEARCH6=BASIN_MASK_template
  + exevs_hurricane_global_det_tcgen_stats.sh line 68: SEARCH6=BASIN_MASK_template
  + exevs_hurricane_global_det_tcgen_stats.sh line 70: sed -i 's|METBASE_template|/apps/ops/prod/libs/intel/19.1.3.304/met/12.0.1|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 71: sed -i 's|INPUT_BASE_template|/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_gfs|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 72: sed -i 's|OUTPUT_BASE_template|/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_gfs|g' TCGen_template.conf
+ + exevs_hurricane_global_det_tcgen_stats.sh line 71: sed -i 's|INPUT_BASE_template|/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/input/al_gfs|g' TCGen_template.conf
+ + exevs_hurricane_global_det_tcgen_stats.sh line 72: sed -i 's|OUTPUT_BASE_template|/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/al_gfs|g' TCGen_template.conf
  + exevs_hurricane_global_det_tcgen_stats.sh line 73: sed -i 's|YEAR_template|2025|g' TCGen_template.conf
  + exevs_hurricane_global_det_tcgen_stats.sh line 74: sed -i 's|INIT_FREQ_template|6|g' TCGen_template.conf
  + exevs_hurricane_global_det_tcgen_stats.sh line 75: sed -i 's|VALID_FREQ_template|6|g' TCGen_template.conf
  + exevs_hurricane_global_det_tcgen_stats.sh line 76: sed -i 's|BASIN_MASK_template|AL|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 78: run_metplus.py -c /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_gfs/TCGen_template.conf
-07/01 20:05:32.015Z metplus.61002240 INFO: Running METplus v6.0.0 as user hananeh.jafary(32599) with command: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0/ush/run_metplus.py -c /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_gfs/TCGen_template.conf
-07/01 20:05:32.016Z metplus.61002240 INFO: Log file: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_gfs/logs/metplus.log.20260701200532
-07/01 20:05:32.016Z metplus.61002240 INFO: METplus Base: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0
-07/01 20:05:32.016Z metplus.61002240 INFO: Final Conf: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_gfs/metplus_final.conf.20260701200532
-07/01 20:05:32.016Z metplus.61002240 INFO: Config Input: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0/metplus/parm/metplus_config/defaults.conf
-07/01 20:05:32.016Z metplus.61002240 INFO: Config Input: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_gfs/TCGen_template.conf
-07/01 20:05:32.024Z metplus.61002240 INFO: Running wrapper: TCGen
-07/01 20:05:32.036Z metplus.61002240 INFO: COMMAND: /apps/ops/prod/libs/intel/19.1.3.304/met/12.0.1/bin/tc_gen -v 2 -genesis /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_gfs/stage/file_lists.20260701200532/20250101000000_tc_gen_genesis.txt -track /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_gfs/stage/file_lists.20260701200532/20250101000000_tc_gen_track.txt -config /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0/metplus/parm/met_config/TCGenConfig_wrapped -out /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_gfs/tc_gen_2025
-07/01 20:06:15.525Z metplus.61002240 INFO: Finished running /apps/ops/prod/libs/intel/19.1.3.304/met/12.0.1/bin/tc_gen - took 0:00:43.459666
-07/01 20:06:15.528Z metplus.61002240 INFO: Scrubbing staging dir: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_gfs/stage
-07/01 20:06:15.528Z metplus.61002240 INFO: Set SCRUB_STAGING_DIR to False to preserve intermediate files.
-07/01 20:06:15.531Z metplus.61002240 INFO: Overwrite final conf here: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_gfs/metplus_final.conf.20260701200532
-07/01 20:06:15.532Z metplus.61002240 INFO: METplus took 0:00:43.532775 to run.
-07/01 20:06:15.532Z metplus.61002240 INFO: Check the log file for more information: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_gfs/logs/metplus.log.20260701200532
-07/01 20:06:15.532Z metplus.61002240 INFO: METplus has successfully finished running as user hananeh.jafary(32599).
+ + exevs_hurricane_global_det_tcgen_stats.sh line 78: run_metplus.py -c /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/al_gfs/TCGen_template.conf
+07/01 22:21:19.425Z metplus.dcbb2857 INFO: Running METplus v6.0.0 as user hananeh.jafary(32599) with command: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0/ush/run_metplus.py -c /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/al_gfs/TCGen_template.conf
+07/01 22:21:19.425Z metplus.dcbb2857 INFO: Log file: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/al_gfs/logs/metplus.log.20260701222119
+07/01 22:21:19.426Z metplus.dcbb2857 INFO: METplus Base: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0
+07/01 22:21:19.426Z metplus.dcbb2857 INFO: Final Conf: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/al_gfs/metplus_final.conf.20260701222119
+07/01 22:21:19.426Z metplus.dcbb2857 INFO: Config Input: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0/metplus/parm/metplus_config/defaults.conf
+07/01 22:21:19.426Z metplus.dcbb2857 INFO: Config Input: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/al_gfs/TCGen_template.conf
+07/01 22:21:19.435Z metplus.dcbb2857 INFO: Running wrapper: TCGen
+07/01 22:21:19.447Z metplus.dcbb2857 INFO: COMMAND: /apps/ops/prod/libs/intel/19.1.3.304/met/12.0.1/bin/tc_gen -v 2 -genesis /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/al_gfs/stage/file_lists.20260701222119/20250101000000_tc_gen_genesis.txt -track /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/al_gfs/stage/file_lists.20260701222119/20250101000000_tc_gen_track.txt -config /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0/metplus/parm/met_config/TCGenConfig_wrapped -out /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/al_gfs/tc_gen_2025
+07/01 22:22:02.141Z metplus.dcbb2857 INFO: Finished running /apps/ops/prod/libs/intel/19.1.3.304/met/12.0.1/bin/tc_gen - took 0:00:42.660765
+07/01 22:22:02.144Z metplus.dcbb2857 INFO: Scrubbing staging dir: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/al_gfs/stage
+07/01 22:22:02.144Z metplus.dcbb2857 INFO: Set SCRUB_STAGING_DIR to False to preserve intermediate files.
+07/01 22:22:02.147Z metplus.dcbb2857 INFO: Overwrite final conf here: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/al_gfs/metplus_final.conf.20260701222119
+07/01 22:22:02.148Z metplus.dcbb2857 INFO: METplus took 0:00:43.148832 to run.
+07/01 22:22:02.148Z metplus.dcbb2857 INFO: Check the log file for more information: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/al_gfs/logs/metplus.log.20260701222119
+07/01 22:22:02.149Z metplus.dcbb2857 INFO: METplus has successfully finished running as user hananeh.jafary(32599).
 Starting METplus v6.0.0
 Parsing config file: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0/metplus/parm/metplus_config/defaults.conf
-Parsing config file: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_gfs/TCGen_template.conf
-Logging to /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_gfs/logs/metplus.log.20260701200532
+Parsing config file: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/al_gfs/TCGen_template.conf
+Logging to /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/al_gfs/logs/metplus.log.20260701222119
  + exevs_hurricane_global_det_tcgen_stats.sh line 79: export err=0
  + exevs_hurricane_global_det_tcgen_stats.sh line 79: err=0
  + exevs_hurricane_global_det_tcgen_stats.sh line 79: err_chk
@@ -1592,228 +1592,43 @@ Logging to /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_globa
  + exevs_hurricane_global_det_tcgen_stats.sh line 82: '[' '!' -d /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen ']'
  + exevs_hurricane_global_det_tcgen_stats.sh line 82: mkdir -p /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen
 mkdir: cannot create directory ‘/lfs/h2/emc/ens/noscrube’: Disk quota exceeded
- + exevs_hurricane_global_det_tcgen_stats.sh line 83: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_gfs/tc_gen_2025_ctc.txt /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_ctc_al_gfs.txt
+ + exevs_hurricane_global_det_tcgen_stats.sh line 83: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/al_gfs/tc_gen_2025_ctc.txt /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_ctc_al_gfs.txt
 cp: cannot create regular file '/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_ctc_al_gfs.txt': No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 84: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_gfs/tc_gen_2025_cts.txt /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_cts_al_gfs.txt
+ + exevs_hurricane_global_det_tcgen_stats.sh line 84: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/al_gfs/tc_gen_2025_cts.txt /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_cts_al_gfs.txt
 cp: cannot create regular file '/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_cts_al_gfs.txt': No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 85: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_gfs/tc_gen_2025_genmpr.txt /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_genmpr_al_gfs.txt
+ + exevs_hurricane_global_det_tcgen_stats.sh line 85: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/al_gfs/tc_gen_2025_genmpr.txt /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_genmpr_al_gfs.txt
 cp: cannot create regular file '/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_genmpr_al_gfs.txt': No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 86: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_gfs/tc_gen_2025.stat /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_al_gfs.stat
+ + exevs_hurricane_global_det_tcgen_stats.sh line 86: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/al_gfs/tc_gen_2025.stat /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_al_gfs.stat
 cp: cannot create regular file '/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_al_gfs.stat': No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 87: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_gfs/tc_gen_2025_pairs.nc /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_pairs_al_gfs.nc
+ + exevs_hurricane_global_det_tcgen_stats.sh line 87: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/al_gfs/tc_gen_2025_pairs.nc /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_pairs_al_gfs.nc
 cp: cannot create regular file '/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_pairs_al_gfs.nc': No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 12: for model in $modellist
- + exevs_hurricane_global_det_tcgen_stats.sh line 15: export DATAroot=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen
- + exevs_hurricane_global_det_tcgen_stats.sh line 15: DATAroot=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen
- + exevs_hurricane_global_det_tcgen_stats.sh line 16: '[' '!' -d /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 17: export INPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_ecmwf
- + exevs_hurricane_global_det_tcgen_stats.sh line 17: INPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_ecmwf
- + exevs_hurricane_global_det_tcgen_stats.sh line 18: '[' '!' -d /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_ecmwf ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 18: mkdir -p /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_ecmwf
- + exevs_hurricane_global_det_tcgen_stats.sh line 19: export OUTPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_ecmwf
- + exevs_hurricane_global_det_tcgen_stats.sh line 19: OUTPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_ecmwf
- + exevs_hurricane_global_det_tcgen_stats.sh line 20: '[' '!' -d /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_ecmwf ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 20: mkdir -p /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_ecmwf
- + exevs_hurricane_global_det_tcgen_stats.sh line 22: '[' ecmwf = gfs ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 25: '[' ecmwf = ecmwf ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 26: cp /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/TCgen/ecmwf_genesis_2025 /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_ecmwf/ALLgenesis_2025
- + exevs_hurricane_global_det_tcgen_stats.sh line 27: export INIT_FREQ=12
- + exevs_hurricane_global_det_tcgen_stats.sh line 27: INIT_FREQ=12
- + exevs_hurricane_global_det_tcgen_stats.sh line 33: '[' al = al ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 34: cp /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal012025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal022025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal032025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal042025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal052025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal062025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal072025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal082025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal092025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal102025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal112025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal122025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal132025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal902025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal912025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal922025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal932025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal942025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal952025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal962025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal972025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal982025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal992025.dat /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_ecmwf/.
- + exevs_hurricane_global_det_tcgen_stats.sh line 35: cp /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal012025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal022025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal032025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal042025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal052025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal062025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal072025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal082025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal092025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal102025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal112025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal122025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal132025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal902025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal912025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal922025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal932025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal942025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal952025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal962025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal972025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal982025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal992025.dat /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_ecmwf/.
- + exevs_hurricane_global_det_tcgen_stats.sh line 36: export BASIN_MASK=AL
- + exevs_hurricane_global_det_tcgen_stats.sh line 36: BASIN_MASK=AL
- + exevs_hurricane_global_det_tcgen_stats.sh line 37: grep 'AL,  9' /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_ecmwf/ALLgenesis_2025
- + exevs_hurricane_global_det_tcgen_stats.sh line 38: grep HC, /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_ecmwf/ALLgenesis_2025
- + exevs_hurricane_global_det_tcgen_stats.sh line 39: grep TG, /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_ecmwf/ALLgenesis_2025
- + exevs_hurricane_global_det_tcgen_stats.sh line 57: cd /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_ecmwf
- + exevs_hurricane_global_det_tcgen_stats.sh line 58: cp /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/EVS/parm/metplus_config/stats/hurricane/TCGen_template.conf .
- + exevs_hurricane_global_det_tcgen_stats.sh line 59: export VALID_FREQ=6
- + exevs_hurricane_global_det_tcgen_stats.sh line 59: VALID_FREQ=6
- + exevs_hurricane_global_det_tcgen_stats.sh line 60: export INIT_FREQ=6
- + exevs_hurricane_global_det_tcgen_stats.sh line 60: INIT_FREQ=6
- + exevs_hurricane_global_det_tcgen_stats.sh line 62: export SEARCH0=METBASE_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 62: SEARCH0=METBASE_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 63: export SEARCH1=INPUT_BASE_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 63: SEARCH1=INPUT_BASE_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 64: export SEARCH2=OUTPUT_BASE_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 64: SEARCH2=OUTPUT_BASE_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 65: export SEARCH3=YEAR_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 65: SEARCH3=YEAR_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 66: export SEARCH4=INIT_FREQ_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 66: SEARCH4=INIT_FREQ_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 67: export SEARCH5=VALID_FREQ_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 67: SEARCH5=VALID_FREQ_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 68: export SEARCH6=BASIN_MASK_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 68: SEARCH6=BASIN_MASK_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 70: sed -i 's|METBASE_template|/apps/ops/prod/libs/intel/19.1.3.304/met/12.0.1|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 71: sed -i 's|INPUT_BASE_template|/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_ecmwf|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 72: sed -i 's|OUTPUT_BASE_template|/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_ecmwf|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 73: sed -i 's|YEAR_template|2025|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 74: sed -i 's|INIT_FREQ_template|6|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 75: sed -i 's|VALID_FREQ_template|6|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 76: sed -i 's|BASIN_MASK_template|AL|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 78: run_metplus.py -c /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_ecmwf/TCGen_template.conf
-07/01 20:06:18.708Z metplus.4c75502e INFO: Running METplus v6.0.0 as user hananeh.jafary(32599) with command: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0/ush/run_metplus.py -c /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_ecmwf/TCGen_template.conf
-07/01 20:06:18.708Z metplus.4c75502e INFO: Log file: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_ecmwf/logs/metplus.log.20260701200618
-07/01 20:06:18.708Z metplus.4c75502e INFO: METplus Base: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0
-07/01 20:06:18.708Z metplus.4c75502e INFO: Final Conf: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_ecmwf/metplus_final.conf.20260701200618
-07/01 20:06:18.708Z metplus.4c75502e INFO: Config Input: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0/metplus/parm/metplus_config/defaults.conf
-07/01 20:06:18.709Z metplus.4c75502e INFO: Config Input: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_ecmwf/TCGen_template.conf
-07/01 20:06:18.716Z metplus.4c75502e INFO: Running wrapper: TCGen
-07/01 20:06:18.728Z metplus.4c75502e INFO: COMMAND: /apps/ops/prod/libs/intel/19.1.3.304/met/12.0.1/bin/tc_gen -v 2 -genesis /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_ecmwf/stage/file_lists.20260701200618/20250101000000_tc_gen_genesis.txt -track /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_ecmwf/stage/file_lists.20260701200618/20250101000000_tc_gen_track.txt -config /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0/metplus/parm/met_config/TCGenConfig_wrapped -out /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_ecmwf/tc_gen_2025
-07/01 20:08:19.091Z metplus.4c75502e INFO: Finished running /apps/ops/prod/libs/intel/19.1.3.304/met/12.0.1/bin/tc_gen - took 0:02:00.353678
-07/01 20:08:19.094Z metplus.4c75502e INFO: Scrubbing staging dir: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_ecmwf/stage
-07/01 20:08:19.094Z metplus.4c75502e INFO: Set SCRUB_STAGING_DIR to False to preserve intermediate files.
-07/01 20:08:19.097Z metplus.4c75502e INFO: Overwrite final conf here: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_ecmwf/metplus_final.conf.20260701200618
-07/01 20:08:19.098Z metplus.4c75502e INFO: METplus took 0:02:01.098244 to run.
-07/01 20:08:19.098Z metplus.4c75502e INFO: Check the log file for more information: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_ecmwf/logs/metplus.log.20260701200618
-07/01 20:08:19.098Z metplus.4c75502e INFO: METplus has successfully finished running as user hananeh.jafary(32599).
-Starting METplus v6.0.0
-Parsing config file: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0/metplus/parm/metplus_config/defaults.conf
-Parsing config file: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_ecmwf/TCGen_template.conf
-Logging to /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_ecmwf/logs/metplus.log.20260701200618
- + exevs_hurricane_global_det_tcgen_stats.sh line 79: export err=0
- + exevs_hurricane_global_det_tcgen_stats.sh line 79: err=0
- + exevs_hurricane_global_det_tcgen_stats.sh line 79: err_chk
- completed cleanly
- + exevs_hurricane_global_det_tcgen_stats.sh line 81: '[' YES = YES ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 82: '[' '!' -d /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 82: mkdir -p /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen
-mkdir: cannot create directory ‘/lfs/h2/emc/ens/noscrube’: Disk quota exceeded
- + exevs_hurricane_global_det_tcgen_stats.sh line 83: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_ecmwf/tc_gen_2025_ctc.txt /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_ctc_al_ecmwf.txt
-cp: cannot create regular file '/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_ctc_al_ecmwf.txt': No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 84: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_ecmwf/tc_gen_2025_cts.txt /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_cts_al_ecmwf.txt
-cp: cannot create regular file '/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_cts_al_ecmwf.txt': No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 85: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_ecmwf/tc_gen_2025_genmpr.txt /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_genmpr_al_ecmwf.txt
-cp: cannot create regular file '/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_genmpr_al_ecmwf.txt': No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 86: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_ecmwf/tc_gen_2025.stat /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_al_ecmwf.stat
-cp: cannot create regular file '/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_al_ecmwf.stat': No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 87: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_ecmwf/tc_gen_2025_pairs.nc /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_pairs_al_ecmwf.nc
-cp: cannot create regular file '/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_pairs_al_ecmwf.nc': No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 12: for model in $modellist
- + exevs_hurricane_global_det_tcgen_stats.sh line 15: export DATAroot=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen
- + exevs_hurricane_global_det_tcgen_stats.sh line 15: DATAroot=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen
- + exevs_hurricane_global_det_tcgen_stats.sh line 16: '[' '!' -d /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 17: export INPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_cmc
- + exevs_hurricane_global_det_tcgen_stats.sh line 17: INPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_cmc
- + exevs_hurricane_global_det_tcgen_stats.sh line 18: '[' '!' -d /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_cmc ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 18: mkdir -p /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_cmc
- + exevs_hurricane_global_det_tcgen_stats.sh line 19: export OUTPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_cmc
- + exevs_hurricane_global_det_tcgen_stats.sh line 19: OUTPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_cmc
- + exevs_hurricane_global_det_tcgen_stats.sh line 20: '[' '!' -d /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_cmc ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 20: mkdir -p /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_cmc
- + exevs_hurricane_global_det_tcgen_stats.sh line 22: '[' cmc = gfs ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 25: '[' cmc = ecmwf ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 28: '[' cmc = cmc ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 29: cp /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/TCgen/cmc_genesis_2025 /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_cmc/ALLgenesis_2025
-cp: cannot stat '/lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/TCgen/cmc_genesis_2025': No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 30: export INIT_FREQ=12
- + exevs_hurricane_global_det_tcgen_stats.sh line 30: INIT_FREQ=12
- + exevs_hurricane_global_det_tcgen_stats.sh line 33: '[' al = al ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 34: cp /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal012025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal022025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal032025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal042025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal052025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal062025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal072025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal082025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal092025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal102025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal112025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal122025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal132025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal902025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal912025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal922025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal932025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal942025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal952025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal962025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal972025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal982025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aal992025.dat /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_cmc/.
- + exevs_hurricane_global_det_tcgen_stats.sh line 35: cp /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal012025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal022025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal032025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal042025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal052025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal062025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal072025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal082025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal092025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal102025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal112025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal122025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal132025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal902025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal912025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal922025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal932025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal942025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal952025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal962025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal972025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal982025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bal992025.dat /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_cmc/.
- + exevs_hurricane_global_det_tcgen_stats.sh line 36: export BASIN_MASK=AL
- + exevs_hurricane_global_det_tcgen_stats.sh line 36: BASIN_MASK=AL
- + exevs_hurricane_global_det_tcgen_stats.sh line 37: grep 'AL,  9' /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_cmc/ALLgenesis_2025
-grep: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_cmc/ALLgenesis_2025: No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 38: grep HC, /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_cmc/ALLgenesis_2025
-grep: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_cmc/ALLgenesis_2025: No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 39: grep TG, /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_cmc/ALLgenesis_2025
-grep: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_cmc/ALLgenesis_2025: No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 57: cd /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_cmc
- + exevs_hurricane_global_det_tcgen_stats.sh line 58: cp /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/EVS/parm/metplus_config/stats/hurricane/TCGen_template.conf .
- + exevs_hurricane_global_det_tcgen_stats.sh line 59: export VALID_FREQ=6
- + exevs_hurricane_global_det_tcgen_stats.sh line 59: VALID_FREQ=6
- + exevs_hurricane_global_det_tcgen_stats.sh line 60: export INIT_FREQ=6
- + exevs_hurricane_global_det_tcgen_stats.sh line 60: INIT_FREQ=6
- + exevs_hurricane_global_det_tcgen_stats.sh line 62: export SEARCH0=METBASE_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 62: SEARCH0=METBASE_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 63: export SEARCH1=INPUT_BASE_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 63: SEARCH1=INPUT_BASE_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 64: export SEARCH2=OUTPUT_BASE_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 64: SEARCH2=OUTPUT_BASE_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 65: export SEARCH3=YEAR_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 65: SEARCH3=YEAR_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 66: export SEARCH4=INIT_FREQ_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 66: SEARCH4=INIT_FREQ_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 67: export SEARCH5=VALID_FREQ_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 67: SEARCH5=VALID_FREQ_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 68: export SEARCH6=BASIN_MASK_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 68: SEARCH6=BASIN_MASK_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 70: sed -i 's|METBASE_template|/apps/ops/prod/libs/intel/19.1.3.304/met/12.0.1|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 71: sed -i 's|INPUT_BASE_template|/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/al_cmc|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 72: sed -i 's|OUTPUT_BASE_template|/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_cmc|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 73: sed -i 's|YEAR_template|2025|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 74: sed -i 's|INIT_FREQ_template|6|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 75: sed -i 's|VALID_FREQ_template|6|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 76: sed -i 's|BASIN_MASK_template|AL|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 78: run_metplus.py -c /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_cmc/TCGen_template.conf
-07/01 20:08:20.819Z metplus.ba58647e INFO: Running METplus v6.0.0 as user hananeh.jafary(32599) with command: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0/ush/run_metplus.py -c /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_cmc/TCGen_template.conf
-07/01 20:08:20.820Z metplus.ba58647e INFO: Log file: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_cmc/logs/metplus.log.20260701200820
-07/01 20:08:20.820Z metplus.ba58647e INFO: METplus Base: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0
-07/01 20:08:20.820Z metplus.ba58647e INFO: Final Conf: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_cmc/metplus_final.conf.20260701200820
-07/01 20:08:20.820Z metplus.ba58647e INFO: Config Input: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0/metplus/parm/metplus_config/defaults.conf
-07/01 20:08:20.820Z metplus.ba58647e INFO: Config Input: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_cmc/TCGen_template.conf
-07/01 20:08:20.828Z metplus.ba58647e INFO: Running wrapper: TCGen
-07/01 20:08:20.840Z metplus.ba58647e INFO: COMMAND: /apps/ops/prod/libs/intel/19.1.3.304/met/12.0.1/bin/tc_gen -v 2 -genesis /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_cmc/stage/file_lists.20260701200820/20250101000000_tc_gen_genesis.txt -track /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_cmc/stage/file_lists.20260701200820/20250101000000_tc_gen_track.txt -config /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0/metplus/parm/met_config/TCGenConfig_wrapped -out /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_cmc/tc_gen_2025
-07/01 20:08:43.082Z metplus.ba58647e INFO: Finished running /apps/ops/prod/libs/intel/19.1.3.304/met/12.0.1/bin/tc_gen - took 0:00:22.230540
-07/01 20:08:43.084Z metplus.ba58647e INFO: Scrubbing staging dir: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_cmc/stage
-07/01 20:08:43.084Z metplus.ba58647e INFO: Set SCRUB_STAGING_DIR to False to preserve intermediate files.
-07/01 20:08:43.087Z metplus.ba58647e INFO: Overwrite final conf here: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_cmc/metplus_final.conf.20260701200820
-07/01 20:08:43.088Z metplus.ba58647e INFO: METplus took 0:00:23.088401 to run.
-07/01 20:08:43.088Z metplus.ba58647e INFO: Check the log file for more information: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_cmc/logs/metplus.log.20260701200820
-07/01 20:08:43.088Z metplus.ba58647e INFO: METplus has successfully finished running as user hananeh.jafary(32599).
-Starting METplus v6.0.0
-Parsing config file: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0/metplus/parm/metplus_config/defaults.conf
-Parsing config file: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_cmc/TCGen_template.conf
-Logging to /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_cmc/logs/metplus.log.20260701200820
- + exevs_hurricane_global_det_tcgen_stats.sh line 79: export err=0
- + exevs_hurricane_global_det_tcgen_stats.sh line 79: err=0
- + exevs_hurricane_global_det_tcgen_stats.sh line 79: err_chk
- completed cleanly
- + exevs_hurricane_global_det_tcgen_stats.sh line 81: '[' YES = YES ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 82: '[' '!' -d /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 82: mkdir -p /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen
-mkdir: cannot create directory ‘/lfs/h2/emc/ens/noscrube’: Disk quota exceeded
- + exevs_hurricane_global_det_tcgen_stats.sh line 83: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_cmc/tc_gen_2025_ctc.txt /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_ctc_al_cmc.txt
-cp: cannot create regular file '/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_ctc_al_cmc.txt': No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 84: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_cmc/tc_gen_2025_cts.txt /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_cts_al_cmc.txt
-cp: cannot create regular file '/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_cts_al_cmc.txt': No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 85: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_cmc/tc_gen_2025_genmpr.txt /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_genmpr_al_cmc.txt
-cp: cannot create regular file '/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_genmpr_al_cmc.txt': No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 86: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_cmc/tc_gen_2025.stat /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_al_cmc.stat
-cp: cannot create regular file '/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_al_cmc.stat': No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 87: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/al_cmc/tc_gen_2025_pairs.nc /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_pairs_al_cmc.nc
-cp: cannot create regular file '/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_pairs_al_cmc.nc': No such file or directory
  + exevs_hurricane_global_det_tcgen_stats.sh line 10: for basin in $basinlist
  + exevs_hurricane_global_det_tcgen_stats.sh line 12: for model in $modellist
- + exevs_hurricane_global_det_tcgen_stats.sh line 15: export DATAroot=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen
- + exevs_hurricane_global_det_tcgen_stats.sh line 15: DATAroot=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen
- + exevs_hurricane_global_det_tcgen_stats.sh line 16: '[' '!' -d /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 17: export INPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_gfs
- + exevs_hurricane_global_det_tcgen_stats.sh line 17: INPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_gfs
- + exevs_hurricane_global_det_tcgen_stats.sh line 18: '[' '!' -d /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_gfs ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 18: mkdir -p /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_gfs
- + exevs_hurricane_global_det_tcgen_stats.sh line 19: export OUTPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_gfs
- + exevs_hurricane_global_det_tcgen_stats.sh line 19: OUTPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_gfs
- + exevs_hurricane_global_det_tcgen_stats.sh line 20: '[' '!' -d /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_gfs ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 20: mkdir -p /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_gfs
+ + exevs_hurricane_global_det_tcgen_stats.sh line 15: export DATAroot=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen
+ + exevs_hurricane_global_det_tcgen_stats.sh line 15: DATAroot=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen
+ + exevs_hurricane_global_det_tcgen_stats.sh line 16: '[' '!' -d /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen ']'
+ + exevs_hurricane_global_det_tcgen_stats.sh line 17: export INPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/input/ep_gfs
+ + exevs_hurricane_global_det_tcgen_stats.sh line 17: INPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/input/ep_gfs
+ + exevs_hurricane_global_det_tcgen_stats.sh line 18: '[' '!' -d /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/input/ep_gfs ']'
+ + exevs_hurricane_global_det_tcgen_stats.sh line 18: mkdir -p /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/input/ep_gfs
+ + exevs_hurricane_global_det_tcgen_stats.sh line 19: export OUTPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/ep_gfs
+ + exevs_hurricane_global_det_tcgen_stats.sh line 19: OUTPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/ep_gfs
+ + exevs_hurricane_global_det_tcgen_stats.sh line 20: '[' '!' -d /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/ep_gfs ']'
+ + exevs_hurricane_global_det_tcgen_stats.sh line 20: mkdir -p /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/ep_gfs
  + exevs_hurricane_global_det_tcgen_stats.sh line 22: '[' gfs = gfs ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 23: cp /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/TCgen/gfs_genesis_2025 /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_gfs/ALLgenesis_2025
+ + exevs_hurricane_global_det_tcgen_stats.sh line 23: cp /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/TCgen/gfs_genesis_2025 /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/input/ep_gfs/ALLgenesis_2025
  + exevs_hurricane_global_det_tcgen_stats.sh line 24: export INIT_FREQ=6
  + exevs_hurricane_global_det_tcgen_stats.sh line 24: INIT_FREQ=6
  + exevs_hurricane_global_det_tcgen_stats.sh line 33: '[' ep = al ']'
  + exevs_hurricane_global_det_tcgen_stats.sh line 40: '[' ep = ep ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 41: cp /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep012025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep022025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep032025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep042025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep052025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep062025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep072025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep082025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep092025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep102025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep112025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep122025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep132025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep142025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep152025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep162025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep172025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep182025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep902025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep912025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep922025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep932025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep942025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep952025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep962025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep972025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep982025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep992025.dat /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_gfs/.
- + exevs_hurricane_global_det_tcgen_stats.sh line 42: cp /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep012025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep022025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep032025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep042025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep052025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep062025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep072025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep082025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep092025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep102025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep112025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep122025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep132025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep142025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep152025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep162025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep172025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep182025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep902025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep912025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep922025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep932025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep942025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep952025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep962025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep972025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep982025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep992025.dat /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_gfs/.
+ + exevs_hurricane_global_det_tcgen_stats.sh line 41: cp /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep012025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep022025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep032025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep042025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep052025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep062025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep072025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep082025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep092025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep102025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep112025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep122025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep132025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep142025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep152025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep162025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep172025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep182025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep902025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep912025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep922025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep932025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep942025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep952025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep962025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep972025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep982025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep992025.dat /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/input/ep_gfs/.
+ + exevs_hurricane_global_det_tcgen_stats.sh line 42: cp /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep012025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep022025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep032025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep042025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep052025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep062025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep072025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep082025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep092025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep102025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep112025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep122025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep132025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep142025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep152025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep162025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep172025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep182025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep902025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep912025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep922025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep932025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep942025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep952025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep962025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep972025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep982025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep992025.dat /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/input/ep_gfs/.
  + exevs_hurricane_global_det_tcgen_stats.sh line 43: export BASIN_MASK=EP
  + exevs_hurricane_global_det_tcgen_stats.sh line 43: BASIN_MASK=EP
- + exevs_hurricane_global_det_tcgen_stats.sh line 44: grep 'EP,  9' /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_gfs/ALLgenesis_2025
- + exevs_hurricane_global_det_tcgen_stats.sh line 45: grep HC, /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_gfs/ALLgenesis_2025
- + exevs_hurricane_global_det_tcgen_stats.sh line 46: grep TG, /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_gfs/ALLgenesis_2025
- + exevs_hurricane_global_det_tcgen_stats.sh line 57: cd /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_gfs
+ + exevs_hurricane_global_det_tcgen_stats.sh line 44: grep 'EP,  9' /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/input/ep_gfs/ALLgenesis_2025
+ + exevs_hurricane_global_det_tcgen_stats.sh line 45: grep HC, /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/input/ep_gfs/ALLgenesis_2025
+ + exevs_hurricane_global_det_tcgen_stats.sh line 46: grep TG, /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/input/ep_gfs/ALLgenesis_2025
+ + exevs_hurricane_global_det_tcgen_stats.sh line 57: cd /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/ep_gfs
  + exevs_hurricane_global_det_tcgen_stats.sh line 58: cp /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/EVS/parm/metplus_config/stats/hurricane/TCGen_template.conf .
  + exevs_hurricane_global_det_tcgen_stats.sh line 59: export VALID_FREQ=6
  + exevs_hurricane_global_det_tcgen_stats.sh line 59: VALID_FREQ=6
@@ -1834,32 +1649,32 @@ cp: cannot create regular file '/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/ev
  + exevs_hurricane_global_det_tcgen_stats.sh line 68: export SEARCH6=BASIN_MASK_template
  + exevs_hurricane_global_det_tcgen_stats.sh line 68: SEARCH6=BASIN_MASK_template
  + exevs_hurricane_global_det_tcgen_stats.sh line 70: sed -i 's|METBASE_template|/apps/ops/prod/libs/intel/19.1.3.304/met/12.0.1|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 71: sed -i 's|INPUT_BASE_template|/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_gfs|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 72: sed -i 's|OUTPUT_BASE_template|/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_gfs|g' TCGen_template.conf
+ + exevs_hurricane_global_det_tcgen_stats.sh line 71: sed -i 's|INPUT_BASE_template|/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/input/ep_gfs|g' TCGen_template.conf
+ + exevs_hurricane_global_det_tcgen_stats.sh line 72: sed -i 's|OUTPUT_BASE_template|/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/ep_gfs|g' TCGen_template.conf
  + exevs_hurricane_global_det_tcgen_stats.sh line 73: sed -i 's|YEAR_template|2025|g' TCGen_template.conf
  + exevs_hurricane_global_det_tcgen_stats.sh line 74: sed -i 's|INIT_FREQ_template|6|g' TCGen_template.conf
  + exevs_hurricane_global_det_tcgen_stats.sh line 75: sed -i 's|VALID_FREQ_template|6|g' TCGen_template.conf
  + exevs_hurricane_global_det_tcgen_stats.sh line 76: sed -i 's|BASIN_MASK_template|EP|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 78: run_metplus.py -c /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_gfs/TCGen_template.conf
-07/01 20:08:46.712Z metplus.e389256c INFO: Running METplus v6.0.0 as user hananeh.jafary(32599) with command: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0/ush/run_metplus.py -c /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_gfs/TCGen_template.conf
-07/01 20:08:46.713Z metplus.e389256c INFO: Log file: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_gfs/logs/metplus.log.20260701200846
-07/01 20:08:46.713Z metplus.e389256c INFO: METplus Base: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0
-07/01 20:08:46.713Z metplus.e389256c INFO: Final Conf: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_gfs/metplus_final.conf.20260701200846
-07/01 20:08:46.713Z metplus.e389256c INFO: Config Input: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0/metplus/parm/metplus_config/defaults.conf
-07/01 20:08:46.713Z metplus.e389256c INFO: Config Input: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_gfs/TCGen_template.conf
-07/01 20:08:46.720Z metplus.e389256c INFO: Running wrapper: TCGen
-07/01 20:08:46.733Z metplus.e389256c INFO: COMMAND: /apps/ops/prod/libs/intel/19.1.3.304/met/12.0.1/bin/tc_gen -v 2 -genesis /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_gfs/stage/file_lists.20260701200846/20250101000000_tc_gen_genesis.txt -track /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_gfs/stage/file_lists.20260701200846/20250101000000_tc_gen_track.txt -config /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0/metplus/parm/met_config/TCGenConfig_wrapped -out /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_gfs/tc_gen_2025
-07/01 20:09:27.192Z metplus.e389256c INFO: Finished running /apps/ops/prod/libs/intel/19.1.3.304/met/12.0.1/bin/tc_gen - took 0:00:40.452596
-07/01 20:09:27.195Z metplus.e389256c INFO: Scrubbing staging dir: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_gfs/stage
-07/01 20:09:27.195Z metplus.e389256c INFO: Set SCRUB_STAGING_DIR to False to preserve intermediate files.
-07/01 20:09:27.198Z metplus.e389256c INFO: Overwrite final conf here: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_gfs/metplus_final.conf.20260701200846
-07/01 20:09:27.199Z metplus.e389256c INFO: METplus took 0:00:41.199339 to run.
-07/01 20:09:27.199Z metplus.e389256c INFO: Check the log file for more information: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_gfs/logs/metplus.log.20260701200846
-07/01 20:09:27.199Z metplus.e389256c INFO: METplus has successfully finished running as user hananeh.jafary(32599).
+ + exevs_hurricane_global_det_tcgen_stats.sh line 78: run_metplus.py -c /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/ep_gfs/TCGen_template.conf
+07/01 22:22:06.088Z metplus.10abcc96 INFO: Running METplus v6.0.0 as user hananeh.jafary(32599) with command: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0/ush/run_metplus.py -c /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/ep_gfs/TCGen_template.conf
+07/01 22:22:06.089Z metplus.10abcc96 INFO: Log file: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/ep_gfs/logs/metplus.log.20260701222206
+07/01 22:22:06.089Z metplus.10abcc96 INFO: METplus Base: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0
+07/01 22:22:06.089Z metplus.10abcc96 INFO: Final Conf: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/ep_gfs/metplus_final.conf.20260701222206
+07/01 22:22:06.089Z metplus.10abcc96 INFO: Config Input: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0/metplus/parm/metplus_config/defaults.conf
+07/01 22:22:06.089Z metplus.10abcc96 INFO: Config Input: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/ep_gfs/TCGen_template.conf
+07/01 22:22:06.096Z metplus.10abcc96 INFO: Running wrapper: TCGen
+07/01 22:22:06.109Z metplus.10abcc96 INFO: COMMAND: /apps/ops/prod/libs/intel/19.1.3.304/met/12.0.1/bin/tc_gen -v 2 -genesis /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/ep_gfs/stage/file_lists.20260701222206/20250101000000_tc_gen_genesis.txt -track /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/ep_gfs/stage/file_lists.20260701222206/20250101000000_tc_gen_track.txt -config /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0/metplus/parm/met_config/TCGenConfig_wrapped -out /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/ep_gfs/tc_gen_2025
+07/01 22:22:45.571Z metplus.10abcc96 INFO: Finished running /apps/ops/prod/libs/intel/19.1.3.304/met/12.0.1/bin/tc_gen - took 0:00:39.454174
+07/01 22:22:45.573Z metplus.10abcc96 INFO: Scrubbing staging dir: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/ep_gfs/stage
+07/01 22:22:45.574Z metplus.10abcc96 INFO: Set SCRUB_STAGING_DIR to False to preserve intermediate files.
+07/01 22:22:45.577Z metplus.10abcc96 INFO: Overwrite final conf here: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/ep_gfs/metplus_final.conf.20260701222206
+07/01 22:22:45.578Z metplus.10abcc96 INFO: METplus took 0:00:39.578586 to run.
+07/01 22:22:45.578Z metplus.10abcc96 INFO: Check the log file for more information: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/ep_gfs/logs/metplus.log.20260701222206
+07/01 22:22:45.578Z metplus.10abcc96 INFO: METplus has successfully finished running as user hananeh.jafary(32599).
 Starting METplus v6.0.0
 Parsing config file: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0/metplus/parm/metplus_config/defaults.conf
-Parsing config file: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_gfs/TCGen_template.conf
-Logging to /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_gfs/logs/metplus.log.20260701200846
+Parsing config file: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/ep_gfs/TCGen_template.conf
+Logging to /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/ep_gfs/logs/metplus.log.20260701222206
  + exevs_hurricane_global_det_tcgen_stats.sh line 79: export err=0
  + exevs_hurricane_global_det_tcgen_stats.sh line 79: err=0
  + exevs_hurricane_global_det_tcgen_stats.sh line 79: err_chk
@@ -1868,285 +1683,23 @@ Logging to /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_globa
  + exevs_hurricane_global_det_tcgen_stats.sh line 82: '[' '!' -d /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen ']'
  + exevs_hurricane_global_det_tcgen_stats.sh line 82: mkdir -p /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen
 mkdir: cannot create directory ‘/lfs/h2/emc/ens/noscrube’: Disk quota exceeded
- + exevs_hurricane_global_det_tcgen_stats.sh line 83: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_gfs/tc_gen_2025_ctc.txt /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_ctc_ep_gfs.txt
+ + exevs_hurricane_global_det_tcgen_stats.sh line 83: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/ep_gfs/tc_gen_2025_ctc.txt /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_ctc_ep_gfs.txt
 cp: cannot create regular file '/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_ctc_ep_gfs.txt': No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 84: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_gfs/tc_gen_2025_cts.txt /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_cts_ep_gfs.txt
+ + exevs_hurricane_global_det_tcgen_stats.sh line 84: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/ep_gfs/tc_gen_2025_cts.txt /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_cts_ep_gfs.txt
 cp: cannot create regular file '/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_cts_ep_gfs.txt': No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 85: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_gfs/tc_gen_2025_genmpr.txt /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_genmpr_ep_gfs.txt
+ + exevs_hurricane_global_det_tcgen_stats.sh line 85: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/ep_gfs/tc_gen_2025_genmpr.txt /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_genmpr_ep_gfs.txt
 cp: cannot create regular file '/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_genmpr_ep_gfs.txt': No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 86: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_gfs/tc_gen_2025.stat /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_ep_gfs.stat
+ + exevs_hurricane_global_det_tcgen_stats.sh line 86: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/ep_gfs/tc_gen_2025.stat /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_ep_gfs.stat
 cp: cannot create regular file '/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_ep_gfs.stat': No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 87: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_gfs/tc_gen_2025_pairs.nc /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_pairs_ep_gfs.nc
+ + exevs_hurricane_global_det_tcgen_stats.sh line 87: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01/tcgen/output/ep_gfs/tc_gen_2025_pairs.nc /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_pairs_ep_gfs.nc
 cp: cannot create regular file '/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_pairs_ep_gfs.nc': No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 12: for model in $modellist
- + exevs_hurricane_global_det_tcgen_stats.sh line 15: export DATAroot=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen
- + exevs_hurricane_global_det_tcgen_stats.sh line 15: DATAroot=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen
- + exevs_hurricane_global_det_tcgen_stats.sh line 16: '[' '!' -d /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 17: export INPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_ecmwf
- + exevs_hurricane_global_det_tcgen_stats.sh line 17: INPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_ecmwf
- + exevs_hurricane_global_det_tcgen_stats.sh line 18: '[' '!' -d /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_ecmwf ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 18: mkdir -p /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_ecmwf
- + exevs_hurricane_global_det_tcgen_stats.sh line 19: export OUTPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_ecmwf
- + exevs_hurricane_global_det_tcgen_stats.sh line 19: OUTPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_ecmwf
- + exevs_hurricane_global_det_tcgen_stats.sh line 20: '[' '!' -d /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_ecmwf ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 20: mkdir -p /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_ecmwf
- + exevs_hurricane_global_det_tcgen_stats.sh line 22: '[' ecmwf = gfs ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 25: '[' ecmwf = ecmwf ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 26: cp /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/TCgen/ecmwf_genesis_2025 /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_ecmwf/ALLgenesis_2025
- + exevs_hurricane_global_det_tcgen_stats.sh line 27: export INIT_FREQ=12
- + exevs_hurricane_global_det_tcgen_stats.sh line 27: INIT_FREQ=12
- + exevs_hurricane_global_det_tcgen_stats.sh line 33: '[' ep = al ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 40: '[' ep = ep ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 41: cp /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep012025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep022025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep032025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep042025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep052025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep062025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep072025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep082025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep092025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep102025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep112025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep122025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep132025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep142025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep152025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep162025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep172025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep182025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep902025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep912025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep922025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep932025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep942025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep952025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep962025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep972025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep982025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep992025.dat /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_ecmwf/.
- + exevs_hurricane_global_det_tcgen_stats.sh line 42: cp /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep012025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep022025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep032025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep042025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep052025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep062025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep072025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep082025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep092025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep102025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep112025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep122025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep132025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep142025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep152025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep162025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep172025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep182025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep902025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep912025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep922025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep932025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep942025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep952025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep962025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep972025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep982025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep992025.dat /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_ecmwf/.
- + exevs_hurricane_global_det_tcgen_stats.sh line 43: export BASIN_MASK=EP
- + exevs_hurricane_global_det_tcgen_stats.sh line 43: BASIN_MASK=EP
- + exevs_hurricane_global_det_tcgen_stats.sh line 44: grep 'EP,  9' /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_ecmwf/ALLgenesis_2025
- + exevs_hurricane_global_det_tcgen_stats.sh line 45: grep HC, /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_ecmwf/ALLgenesis_2025
- + exevs_hurricane_global_det_tcgen_stats.sh line 46: grep TG, /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_ecmwf/ALLgenesis_2025
- + exevs_hurricane_global_det_tcgen_stats.sh line 57: cd /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_ecmwf
- + exevs_hurricane_global_det_tcgen_stats.sh line 58: cp /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/EVS/parm/metplus_config/stats/hurricane/TCGen_template.conf .
- + exevs_hurricane_global_det_tcgen_stats.sh line 59: export VALID_FREQ=6
- + exevs_hurricane_global_det_tcgen_stats.sh line 59: VALID_FREQ=6
- + exevs_hurricane_global_det_tcgen_stats.sh line 60: export INIT_FREQ=6
- + exevs_hurricane_global_det_tcgen_stats.sh line 60: INIT_FREQ=6
- + exevs_hurricane_global_det_tcgen_stats.sh line 62: export SEARCH0=METBASE_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 62: SEARCH0=METBASE_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 63: export SEARCH1=INPUT_BASE_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 63: SEARCH1=INPUT_BASE_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 64: export SEARCH2=OUTPUT_BASE_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 64: SEARCH2=OUTPUT_BASE_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 65: export SEARCH3=YEAR_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 65: SEARCH3=YEAR_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 66: export SEARCH4=INIT_FREQ_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 66: SEARCH4=INIT_FREQ_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 67: export SEARCH5=VALID_FREQ_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 67: SEARCH5=VALID_FREQ_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 68: export SEARCH6=BASIN_MASK_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 68: SEARCH6=BASIN_MASK_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 70: sed -i 's|METBASE_template|/apps/ops/prod/libs/intel/19.1.3.304/met/12.0.1|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 71: sed -i 's|INPUT_BASE_template|/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_ecmwf|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 72: sed -i 's|OUTPUT_BASE_template|/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_ecmwf|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 73: sed -i 's|YEAR_template|2025|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 74: sed -i 's|INIT_FREQ_template|6|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 75: sed -i 's|VALID_FREQ_template|6|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 76: sed -i 's|BASIN_MASK_template|EP|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 78: run_metplus.py -c /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_ecmwf/TCGen_template.conf
-07/01 20:09:29.279Z metplus.fc9c5db6 INFO: Running METplus v6.0.0 as user hananeh.jafary(32599) with command: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0/ush/run_metplus.py -c /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_ecmwf/TCGen_template.conf
-07/01 20:09:29.279Z metplus.fc9c5db6 INFO: Log file: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_ecmwf/logs/metplus.log.20260701200929
-07/01 20:09:29.279Z metplus.fc9c5db6 INFO: METplus Base: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0
-07/01 20:09:29.279Z metplus.fc9c5db6 INFO: Final Conf: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_ecmwf/metplus_final.conf.20260701200929
-07/01 20:09:29.280Z metplus.fc9c5db6 INFO: Config Input: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0/metplus/parm/metplus_config/defaults.conf
-07/01 20:09:29.280Z metplus.fc9c5db6 INFO: Config Input: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_ecmwf/TCGen_template.conf
-07/01 20:09:29.287Z metplus.fc9c5db6 INFO: Running wrapper: TCGen
-07/01 20:09:29.299Z metplus.fc9c5db6 INFO: COMMAND: /apps/ops/prod/libs/intel/19.1.3.304/met/12.0.1/bin/tc_gen -v 2 -genesis /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_ecmwf/stage/file_lists.20260701200929/20250101000000_tc_gen_genesis.txt -track /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_ecmwf/stage/file_lists.20260701200929/20250101000000_tc_gen_track.txt -config /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0/metplus/parm/met_config/TCGenConfig_wrapped -out /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_ecmwf/tc_gen_2025
-07/01 20:11:29.065Z metplus.fc9c5db6 INFO: Finished running /apps/ops/prod/libs/intel/19.1.3.304/met/12.0.1/bin/tc_gen - took 0:01:59.754016
-07/01 20:11:29.067Z metplus.fc9c5db6 INFO: Scrubbing staging dir: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_ecmwf/stage
-07/01 20:11:29.068Z metplus.fc9c5db6 INFO: Set SCRUB_STAGING_DIR to False to preserve intermediate files.
-07/01 20:11:29.071Z metplus.fc9c5db6 INFO: Overwrite final conf here: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_ecmwf/metplus_final.conf.20260701200929
-07/01 20:11:29.072Z metplus.fc9c5db6 INFO: METplus took 0:02:00.072390 to run.
-07/01 20:11:29.072Z metplus.fc9c5db6 INFO: Check the log file for more information: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_ecmwf/logs/metplus.log.20260701200929
-07/01 20:11:29.072Z metplus.fc9c5db6 INFO: METplus has successfully finished running as user hananeh.jafary(32599).
-Starting METplus v6.0.0
-Parsing config file: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0/metplus/parm/metplus_config/defaults.conf
-Parsing config file: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_ecmwf/TCGen_template.conf
-Logging to /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_ecmwf/logs/metplus.log.20260701200929
- + exevs_hurricane_global_det_tcgen_stats.sh line 79: export err=0
- + exevs_hurricane_global_det_tcgen_stats.sh line 79: err=0
- + exevs_hurricane_global_det_tcgen_stats.sh line 79: err_chk
- completed cleanly
- + exevs_hurricane_global_det_tcgen_stats.sh line 81: '[' YES = YES ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 82: '[' '!' -d /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 82: mkdir -p /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen
-mkdir: cannot create directory ‘/lfs/h2/emc/ens/noscrube’: Disk quota exceeded
- + exevs_hurricane_global_det_tcgen_stats.sh line 83: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_ecmwf/tc_gen_2025_ctc.txt /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_ctc_ep_ecmwf.txt
-cp: cannot create regular file '/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_ctc_ep_ecmwf.txt': No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 84: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_ecmwf/tc_gen_2025_cts.txt /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_cts_ep_ecmwf.txt
-cp: cannot create regular file '/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_cts_ep_ecmwf.txt': No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 85: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_ecmwf/tc_gen_2025_genmpr.txt /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_genmpr_ep_ecmwf.txt
-cp: cannot create regular file '/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_genmpr_ep_ecmwf.txt': No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 86: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_ecmwf/tc_gen_2025.stat /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_ep_ecmwf.stat
-cp: cannot create regular file '/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_ep_ecmwf.stat': No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 87: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_ecmwf/tc_gen_2025_pairs.nc /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_pairs_ep_ecmwf.nc
-cp: cannot create regular file '/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_pairs_ep_ecmwf.nc': No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 12: for model in $modellist
- + exevs_hurricane_global_det_tcgen_stats.sh line 15: export DATAroot=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen
- + exevs_hurricane_global_det_tcgen_stats.sh line 15: DATAroot=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen
- + exevs_hurricane_global_det_tcgen_stats.sh line 16: '[' '!' -d /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 17: export INPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_cmc
- + exevs_hurricane_global_det_tcgen_stats.sh line 17: INPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_cmc
- + exevs_hurricane_global_det_tcgen_stats.sh line 18: '[' '!' -d /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_cmc ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 18: mkdir -p /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_cmc
- + exevs_hurricane_global_det_tcgen_stats.sh line 19: export OUTPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_cmc
- + exevs_hurricane_global_det_tcgen_stats.sh line 19: OUTPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_cmc
- + exevs_hurricane_global_det_tcgen_stats.sh line 20: '[' '!' -d /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_cmc ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 20: mkdir -p /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_cmc
- + exevs_hurricane_global_det_tcgen_stats.sh line 22: '[' cmc = gfs ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 25: '[' cmc = ecmwf ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 28: '[' cmc = cmc ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 29: cp /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/TCgen/cmc_genesis_2025 /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_cmc/ALLgenesis_2025
-cp: cannot stat '/lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/TCgen/cmc_genesis_2025': No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 30: export INIT_FREQ=12
- + exevs_hurricane_global_det_tcgen_stats.sh line 30: INIT_FREQ=12
- + exevs_hurricane_global_det_tcgen_stats.sh line 33: '[' ep = al ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 40: '[' ep = ep ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 41: cp /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep012025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep022025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep032025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep042025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep052025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep062025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep072025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep082025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep092025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep102025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep112025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep122025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep132025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep142025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep152025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep162025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep172025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep182025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep902025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep912025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep922025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep932025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep942025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep952025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep962025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep972025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep982025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/aep992025.dat /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_cmc/.
- + exevs_hurricane_global_det_tcgen_stats.sh line 42: cp /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep012025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep022025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep032025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep042025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep052025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep062025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep072025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep082025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep092025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep102025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep112025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep122025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep132025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep142025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep152025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep162025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep172025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep182025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep902025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep912025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep922025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep932025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep942025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep952025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep962025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep972025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep982025.dat /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bep992025.dat /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_cmc/.
- + exevs_hurricane_global_det_tcgen_stats.sh line 43: export BASIN_MASK=EP
- + exevs_hurricane_global_det_tcgen_stats.sh line 43: BASIN_MASK=EP
- + exevs_hurricane_global_det_tcgen_stats.sh line 44: grep 'EP,  9' /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_cmc/ALLgenesis_2025
-grep: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_cmc/ALLgenesis_2025: No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 45: grep HC, /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_cmc/ALLgenesis_2025
-grep: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_cmc/ALLgenesis_2025: No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 46: grep TG, /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_cmc/ALLgenesis_2025
-grep: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_cmc/ALLgenesis_2025: No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 57: cd /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_cmc
- + exevs_hurricane_global_det_tcgen_stats.sh line 58: cp /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/EVS/parm/metplus_config/stats/hurricane/TCGen_template.conf .
- + exevs_hurricane_global_det_tcgen_stats.sh line 59: export VALID_FREQ=6
- + exevs_hurricane_global_det_tcgen_stats.sh line 59: VALID_FREQ=6
- + exevs_hurricane_global_det_tcgen_stats.sh line 60: export INIT_FREQ=6
- + exevs_hurricane_global_det_tcgen_stats.sh line 60: INIT_FREQ=6
- + exevs_hurricane_global_det_tcgen_stats.sh line 62: export SEARCH0=METBASE_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 62: SEARCH0=METBASE_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 63: export SEARCH1=INPUT_BASE_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 63: SEARCH1=INPUT_BASE_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 64: export SEARCH2=OUTPUT_BASE_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 64: SEARCH2=OUTPUT_BASE_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 65: export SEARCH3=YEAR_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 65: SEARCH3=YEAR_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 66: export SEARCH4=INIT_FREQ_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 66: SEARCH4=INIT_FREQ_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 67: export SEARCH5=VALID_FREQ_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 67: SEARCH5=VALID_FREQ_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 68: export SEARCH6=BASIN_MASK_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 68: SEARCH6=BASIN_MASK_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 70: sed -i 's|METBASE_template|/apps/ops/prod/libs/intel/19.1.3.304/met/12.0.1|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 71: sed -i 's|INPUT_BASE_template|/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/ep_cmc|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 72: sed -i 's|OUTPUT_BASE_template|/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_cmc|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 73: sed -i 's|YEAR_template|2025|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 74: sed -i 's|INIT_FREQ_template|6|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 75: sed -i 's|VALID_FREQ_template|6|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 76: sed -i 's|BASIN_MASK_template|EP|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 78: run_metplus.py -c /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_cmc/TCGen_template.conf
-07/01 20:11:30.751Z metplus.8d30a4fa INFO: Running METplus v6.0.0 as user hananeh.jafary(32599) with command: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0/ush/run_metplus.py -c /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_cmc/TCGen_template.conf
-07/01 20:11:30.751Z metplus.8d30a4fa INFO: Log file: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_cmc/logs/metplus.log.20260701201130
-07/01 20:11:30.752Z metplus.8d30a4fa INFO: METplus Base: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0
-07/01 20:11:30.752Z metplus.8d30a4fa INFO: Final Conf: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_cmc/metplus_final.conf.20260701201130
-07/01 20:11:30.752Z metplus.8d30a4fa INFO: Config Input: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0/metplus/parm/metplus_config/defaults.conf
-07/01 20:11:30.752Z metplus.8d30a4fa INFO: Config Input: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_cmc/TCGen_template.conf
-07/01 20:11:30.759Z metplus.8d30a4fa INFO: Running wrapper: TCGen
-07/01 20:11:30.771Z metplus.8d30a4fa INFO: COMMAND: /apps/ops/prod/libs/intel/19.1.3.304/met/12.0.1/bin/tc_gen -v 2 -genesis /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_cmc/stage/file_lists.20260701201130/20250101000000_tc_gen_genesis.txt -track /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_cmc/stage/file_lists.20260701201130/20250101000000_tc_gen_track.txt -config /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0/metplus/parm/met_config/TCGenConfig_wrapped -out /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_cmc/tc_gen_2025
-07/01 20:11:50.009Z metplus.8d30a4fa INFO: Finished running /apps/ops/prod/libs/intel/19.1.3.304/met/12.0.1/bin/tc_gen - took 0:00:19.226868
-07/01 20:11:50.011Z metplus.8d30a4fa INFO: Scrubbing staging dir: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_cmc/stage
-07/01 20:11:50.011Z metplus.8d30a4fa INFO: Set SCRUB_STAGING_DIR to False to preserve intermediate files.
-07/01 20:11:50.014Z metplus.8d30a4fa INFO: Overwrite final conf here: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_cmc/metplus_final.conf.20260701201130
-07/01 20:11:50.015Z metplus.8d30a4fa INFO: METplus took 0:00:20.015656 to run.
-07/01 20:11:50.015Z metplus.8d30a4fa INFO: Check the log file for more information: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_cmc/logs/metplus.log.20260701201130
-07/01 20:11:50.015Z metplus.8d30a4fa INFO: METplus has successfully finished running as user hananeh.jafary(32599).
-Starting METplus v6.0.0
-Parsing config file: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0/metplus/parm/metplus_config/defaults.conf
-Parsing config file: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_cmc/TCGen_template.conf
-Logging to /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_cmc/logs/metplus.log.20260701201130
- + exevs_hurricane_global_det_tcgen_stats.sh line 79: export err=0
- + exevs_hurricane_global_det_tcgen_stats.sh line 79: err=0
- + exevs_hurricane_global_det_tcgen_stats.sh line 79: err_chk
- completed cleanly
- + exevs_hurricane_global_det_tcgen_stats.sh line 81: '[' YES = YES ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 82: '[' '!' -d /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 82: mkdir -p /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen
-mkdir: cannot create directory ‘/lfs/h2/emc/ens/noscrube’: Disk quota exceeded
- + exevs_hurricane_global_det_tcgen_stats.sh line 83: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_cmc/tc_gen_2025_ctc.txt /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_ctc_ep_cmc.txt
-cp: cannot create regular file '/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_ctc_ep_cmc.txt': No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 84: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_cmc/tc_gen_2025_cts.txt /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_cts_ep_cmc.txt
-cp: cannot create regular file '/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_cts_ep_cmc.txt': No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 85: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_cmc/tc_gen_2025_genmpr.txt /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_genmpr_ep_cmc.txt
-cp: cannot create regular file '/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_genmpr_ep_cmc.txt': No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 86: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_cmc/tc_gen_2025.stat /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_ep_cmc.stat
-cp: cannot create regular file '/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_ep_cmc.stat': No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 87: cp /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/ep_cmc/tc_gen_2025_pairs.nc /lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_pairs_ep_cmc.nc
-cp: cannot create regular file '/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/evs/v2.0/stats/hurricane/global_det/tcgen/tc_gen_2025_pairs_ep_cmc.nc': No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 10: for basin in $basinlist
- + exevs_hurricane_global_det_tcgen_stats.sh line 12: for model in $modellist
- + exevs_hurricane_global_det_tcgen_stats.sh line 15: export DATAroot=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen
- + exevs_hurricane_global_det_tcgen_stats.sh line 15: DATAroot=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen
- + exevs_hurricane_global_det_tcgen_stats.sh line 16: '[' '!' -d /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 17: export INPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/wp_gfs
- + exevs_hurricane_global_det_tcgen_stats.sh line 17: INPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/wp_gfs
- + exevs_hurricane_global_det_tcgen_stats.sh line 18: '[' '!' -d /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/wp_gfs ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 18: mkdir -p /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/wp_gfs
- + exevs_hurricane_global_det_tcgen_stats.sh line 19: export OUTPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/wp_gfs
- + exevs_hurricane_global_det_tcgen_stats.sh line 19: OUTPUT=/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/wp_gfs
- + exevs_hurricane_global_det_tcgen_stats.sh line 20: '[' '!' -d /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/wp_gfs ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 20: mkdir -p /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/wp_gfs
- + exevs_hurricane_global_det_tcgen_stats.sh line 22: '[' gfs = gfs ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 23: cp /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/TCgen/gfs_genesis_2025 /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/wp_gfs/ALLgenesis_2025
- + exevs_hurricane_global_det_tcgen_stats.sh line 24: export INIT_FREQ=6
- + exevs_hurricane_global_det_tcgen_stats.sh line 24: INIT_FREQ=6
- + exevs_hurricane_global_det_tcgen_stats.sh line 33: '[' wp = al ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 40: '[' wp = ep ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 47: '[' wp = wp ']'
- + exevs_hurricane_global_det_tcgen_stats.sh line 48: cp '/lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/awp*.dat' /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/wp_gfs/.
-cp: cannot stat '/lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck/awp*.dat': No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 49: cp '/lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bwp*.dat' /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/wp_gfs/.
-cp: cannot stat '/lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck/bwp*.dat': No such file or directory
- + exevs_hurricane_global_det_tcgen_stats.sh line 50: export BASIN_MASK=WP
- + exevs_hurricane_global_det_tcgen_stats.sh line 50: BASIN_MASK=WP
- + exevs_hurricane_global_det_tcgen_stats.sh line 51: grep 'WP,  9' /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/wp_gfs/ALLgenesis_2025
- + exevs_hurricane_global_det_tcgen_stats.sh line 52: grep HC, /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/wp_gfs/ALLgenesis_2025
- + exevs_hurricane_global_det_tcgen_stats.sh line 53: grep TG, /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/wp_gfs/ALLgenesis_2025
- + exevs_hurricane_global_det_tcgen_stats.sh line 57: cd /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/wp_gfs
- + exevs_hurricane_global_det_tcgen_stats.sh line 58: cp /lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/EVS/parm/metplus_config/stats/hurricane/TCGen_template.conf .
- + exevs_hurricane_global_det_tcgen_stats.sh line 59: export VALID_FREQ=6
- + exevs_hurricane_global_det_tcgen_stats.sh line 59: VALID_FREQ=6
- + exevs_hurricane_global_det_tcgen_stats.sh line 60: export INIT_FREQ=6
- + exevs_hurricane_global_det_tcgen_stats.sh line 60: INIT_FREQ=6
- + exevs_hurricane_global_det_tcgen_stats.sh line 62: export SEARCH0=METBASE_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 62: SEARCH0=METBASE_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 63: export SEARCH1=INPUT_BASE_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 63: SEARCH1=INPUT_BASE_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 64: export SEARCH2=OUTPUT_BASE_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 64: SEARCH2=OUTPUT_BASE_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 65: export SEARCH3=YEAR_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 65: SEARCH3=YEAR_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 66: export SEARCH4=INIT_FREQ_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 66: SEARCH4=INIT_FREQ_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 67: export SEARCH5=VALID_FREQ_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 67: SEARCH5=VALID_FREQ_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 68: export SEARCH6=BASIN_MASK_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 68: SEARCH6=BASIN_MASK_template
- + exevs_hurricane_global_det_tcgen_stats.sh line 70: sed -i 's|METBASE_template|/apps/ops/prod/libs/intel/19.1.3.304/met/12.0.1|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 71: sed -i 's|INPUT_BASE_template|/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/input/wp_gfs|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 72: sed -i 's|OUTPUT_BASE_template|/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/wp_gfs|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 73: sed -i 's|YEAR_template|2025|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 74: sed -i 's|INIT_FREQ_template|6|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 75: sed -i 's|VALID_FREQ_template|6|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 76: sed -i 's|BASIN_MASK_template|WP|g' TCGen_template.conf
- + exevs_hurricane_global_det_tcgen_stats.sh line 78: run_metplus.py -c /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/wp_gfs/TCGen_template.conf
-07/01 20:11:51.902Z metplus.7e8a3d0a INFO: Running METplus v6.0.0 as user hananeh.jafary(32599) with command: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0/ush/run_metplus.py -c /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/wp_gfs/TCGen_template.conf
-07/01 20:11:51.903Z metplus.7e8a3d0a INFO: Log file: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/wp_gfs/logs/metplus.log.20260701201151
-07/01 20:11:51.903Z metplus.7e8a3d0a INFO: METplus Base: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0
-07/01 20:11:51.903Z metplus.7e8a3d0a INFO: Final Conf: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/wp_gfs/metplus_final.conf.20260701201151
-07/01 20:11:51.903Z metplus.7e8a3d0a INFO: Config Input: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0/metplus/parm/metplus_config/defaults.conf
-07/01 20:11:51.904Z metplus.7e8a3d0a INFO: Config Input: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/wp_gfs/TCGen_template.conf
-07/01 20:11:51.910Z metplus.7e8a3d0a INFO: Running wrapper: TCGen
-07/01 20:11:52.141Z metplus.7e8a3d0a (command_builder.py:264) ERROR: (command_builder.py:619) Could not find any TRACK_INPUT files
-07/01 20:11:52.141Z metplus.7e8a3d0a INFO: No commands were run. Skip writing all_commands file
-07/01 20:11:52.141Z metplus.7e8a3d0a (run_util.py:298) ERROR: TCGen had 1 error.
-07/01 20:11:52.142Z metplus.7e8a3d0a INFO: Overwrite final conf here: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/wp_gfs/metplus_final.conf.20260701201151
-07/01 20:11:52.143Z metplus.7e8a3d0a INFO: METplus took 0:00:01.143548 to run.
-07/01 20:11:52.143Z metplus.7e8a3d0a (run_util.py:347) ERROR: METplus has finished running as user hananeh.jafary(32599) but had 1 error.
-07/01 20:11:52.143Z metplus.7e8a3d0a INFO: Check the log file for more information: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/wp_gfs/logs/metplus.log.20260701201151
-Starting METplus v6.0.0
-Parsing config file: /apps/ops/prod/libs/intel/19.1.3.304/metplus/6.0.0/metplus/parm/metplus_config/defaults.conf
-Parsing config file: /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/wp_gfs/TCGen_template.conf
-Logging to /lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01/tcgen/output/wp_gfs/logs/metplus.log.20260701201151
- + exevs_hurricane_global_det_tcgen_stats.sh line 79: export err=1
- + exevs_hurricane_global_det_tcgen_stats.sh line 79: err=1
- + exevs_hurricane_global_det_tcgen_stats.sh line 79: err_chk
+ 93 + export err=1
+ 93 + err=1
+ 93 + err_chk
 
 -------------------------------------------------------------
--- FATAL ERROR: Job jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01 failed RETURN CODE 1
--- ABNORMAL EXIT at Wed Jul  1 20:11:52 UTC 2026 on nid001019
+-- FATAL ERROR: Job jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01 failed RETURN CODE 1
+-- ABNORMAL EXIT at Wed Jul  1 22:22:45 UTC 2026 on nid003623
 -------------------------------------------------------------
 
 
@@ -2165,252 +1718,252 @@ Currently Loaded Modules:
  
 
 
-Job jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01 failed RETURN CODE 1
-/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01
+Job jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01 failed RETURN CODE 1
+/lfs/h2/emc/stmp/hananeh.jafary/evs_test/dev/tmp/jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01
 total 8
-drwxr-sr-x 4 hananeh.jafary emc 4096 Jul  1 20:05 tcgen
--rw-r--r-- 1 hananeh.jafary emc   97 Jul  1 20:05 jlogfile.jevs_hurricane_global_det_tcgen_stats_00.126502174.dbqs01
-cat: OUTPUT.3473180: No such file or directory
-PBS: Running epilogue on parent mom node: nid001019...
+drwxr-sr-x 4 hananeh.jafary emc 4096 Jul  1 22:21 tcgen
+-rw-r--r-- 1 hananeh.jafary emc   97 Jul  1 22:21 jlogfile.jevs_hurricane_global_det_tcgen_stats_00.126519782.dbqs01
+cat: OUTPUT.69351: No such file or directory
+PBS: Running epilogue on parent mom node: nid003623...
 ==================================================================
 BEGIN - DEBUG INFO
 ==================================================================
-Job 126502174.dbqs01 - Post Job Mem Usage:
-nid001019: 2026-07-01.17 1 ===========================================
-nid001019: 2026-07-01.17 2 #### Node Memory Usage for nid001019 ####
-nid001019: 2026-07-01.17 3 ------------------
-nid001019: 2026-07-01.17 4 Mem: total:526983528 used:7937816 free:520168460 shared:208436 cache:724548 avail:519045712
-nid001019: 2026-07-01.17 5 4.0K	/dev/shm
-nid001019: 2026-07-01.17 6 40K	/tmp
-nid001019: 2026-07-01.17 7 ===========================================
-nid001019: 2026-07-01.54 1 ===========================================
-nid001019: 2026-07-01.54 2 #### Node Memory Usage for nid001019 ####
-nid001019: 2026-07-01.54 3 ------------------
-nid001019: 2026-07-01.54 4 Mem: total:526983528 used:9053112 free:518058580 shared:208468 cache:2715268 avail:517930416
-nid001019: 2026-07-01.54 5 4.0K	/dev/shm
-nid001019: 2026-07-01.54 6 40K	/tmp
-nid001019: 2026-07-01.54 7 ===========================================
+Job 126519782.dbqs01 - Post Job Mem Usage:
+nid003623: 2026-07-01.05 1 ===========================================
+nid003623: 2026-07-01.05 2 #### Node Memory Usage for nid003623 ####
+nid003623: 2026-07-01.05 3 ------------------
+nid003623: 2026-07-01.05 4 Mem: total:526983808 used:6974128 free:521170960 shared:215508 cache:650768 avail:520009680
+nid003623: 2026-07-01.05 5 4.0K	/dev/shm
+nid003623: 2026-07-01.05 6 40K	/tmp
+nid003623: 2026-07-01.05 7 ===========================================
+nid003623: 2026-07-01.47 1 ===========================================
+nid003623: 2026-07-01.47 2 #### Node Memory Usage for nid003623 ####
+nid003623: 2026-07-01.47 3 ------------------
+nid003623: 2026-07-01.47 4 Mem: total:526983808 used:7628852 free:519863192 shared:215540 cache:1843120 avail:519354956
+nid003623: 2026-07-01.47 5 4.0K	/dev/shm
+nid003623: 2026-07-01.47 6 40K	/tmp
+nid003623: 2026-07-01.47 7 ===========================================
 
 ------------------------------------------------------------------
 ------------------------------------------------------------------
-Job 126502174.dbqs01 - Post Job Mem Usage Profile:
-2026-07-01A--:--:--.------+--:-- nid001019 #### nid001019 - Job 126502174.dbqs01 NUMA Node Memory Allocation and Fragmentation Reports
-Starting Fragmentation Report for nid001019
+Job 126519782.dbqs01 - Post Job Mem Usage Profile:
+2026-07-01A--:--:--.------+--:-- nid003623 #### nid003623 - Job 126519782.dbqs01 NUMA Node Memory Allocation and Fragmentation Reports
+Starting Fragmentation Report for nid003623
 Node   Order9   Order10   Score    MB_Free   %Free   State
-0      1361     13402     28165    56330     89      OK
-1      934      14519     29972    59944     92      OK
-2      633      14634     29901    59802     92      OK
-3      1017     14592     30201    60402     93      OK
-4      429      15319     31067    62134     96      OK
-5      363      15269     30901    61802     95      OK
-6      1446     14159     29764    59528     92      OK
-7      694      14909     30512    61024     94      OK
+0      1892     12790     27472    54944     86      OK
+1      800      14873     30546    61092     94      OK
+2      1269     14175     29619    59238     91      OK
+3      588      15152     30892    61784     95      OK
+4      1462     14031     29524    59048     91      OK
+5      608      15270     31148    62296     96      OK
+6      1180     14526     30232    60464     93      OK
+7      1622     14032     29686    59372     92      OK
 
-** nid001019 : node0_score=28165 node0_state=OK uptime=107162s  Overall=OK **
-Ending Fragmentation Report for nid001019
+** nid003623 : node0_score=27472 node0_state=OK uptime=15173s  Overall=OK **
+Ending Fragmentation Report for nid003623
 Node   Order9   Order10   Score    MB_Free   %Free   State
-0      1357     13407     28171    56342     89      OK
-1      923      14533     29989    59978     92      OK
-2      633      14636     29905    59810     92      OK
-3      1016     14599     30214    60428     93      OK
-4      189      15319     30827    61654     95      OK
-5      364      15271     30906    61812     95      OK
-6      1446     14159     29764    59528     92      OK
-7      693      14910     30513    61026     94      OK
+0      1789     12921     27631    55262     87      OK
+1      768      14912     30592    61184     94      OK
+2      1259     14188     29635    59270     91      OK
+3      566      15174     30914    61828     95      OK
+4      1458     14038     29534    59068     91      OK
+5      604      15274     31152    62304     96      OK
+6      1136     14579     30294    60588     93      OK
+7      1570     14093     29756    59512     92      OK
 
-** nid001019 : node0_score=28171 node0_state=OK uptime=107559s  Overall=OK **
-2026-07-01A--:--:--.------+--:-- nid001019 #### nid001019 - Job 126502174.dbqs01 VMSTATS Memory Report
+** nid003623 : node0_score=27631 node0_state=OK uptime=15275s  Overall=OK **
+2026-07-01A--:--:--.------+--:-- nid003623 #### nid003623 - Job 126519782.dbqs01 VMSTATS Memory Report
 **Only Printing Significant Findings - TEST CODE - Results are NOT positive indication of a problem. **
-nid001019 [!] Inactive file cache ballooned: 357816 (threshold: 100000)
+nid003623 [!] Inactive file cache ballooned: 270624 (threshold: 100000)
 
 ------------------------------------------------------------------
-Job 126502174.dbqs01 - /var/log/messages for job duration:
-2026-07-01A--:--:--.------+--:-- nid001019 #### nid001019 - Job 126502174.dbqs01 Runtime Data from /var/log/messages
-nid001019:  nid001019 #### nid001019 - Job 126502174.dbqs01 Runtime Data from /var/log/messages
-nid001019: 2026-07-01T20:05:17.362961+00:00 nid001019 prologue: MARK: Job 126502174.dbqs01 Start
-nid001019: 2026-07-01T20:05:17.374546+00:00 nid001019 prologue: Job 126502174.dbqs01 nodelist: nid001019
-nid001019: 2026-07-01T20:05:17.376347+00:00 nid001019 prologue: Job 126502174.dbqs01 - Recording pre-execution stats and counters...
-nid001019: 2026-07-01T20:05:17.413555+00:00 nid001019 prologue: Job 126502174.dbqs01 - Killing any stray user processes...
-nid001019: 2026-07-01T20:05:17.493090+00:00 nid001019 prologue: Job 126502174.dbqs01 - Clearing /tmp...
-nid001019: 2026-07-01T20:05:17.508122+00:00 nid001019 prologue: Job 126502174.dbqs01 - Verifying key post-boot workarounds with warchk...
-nid001019: 2026-07-01T20:05:17.537487+00:00 nid001019 WARCHK: root : /sfs/admin/scripts/warchk --batch
-nid001019: 2026-07-01T20:05:17.742619+00:00 nid001019 prologue: Job 126502174.dbqs01 - Recording pre-job memory usage...
-nid001019: 2026-07-01T20:05:17.820277+00:00 nid001019 prologue: Job 126502174.dbqs01 - FRAG_STATE: ** nid001019 : node0_score=28165 node0_state=OK uptime=107162s  Overall=OK **
-nid001019: 2026-07-01T20:05:17.821324+00:00 nid001019 prologue: Job 126502174.dbqs01 - Recording pre-job HSN counters...
-nid001019: 2026-07-01T20:05:17.943550+00:00 nid001019 prologue: Job 126502174.dbqs01 - Recording pre-job Lustre counters...
-nid001019: 2026-07-01T20:05:18.874467+00:00 nid001019 prologue: Job 126502174.dbqs01 - Recording initial NFS client statistics...
-nid001019: 2026-07-01T20:05:18.883779+00:00 nid001019 prologue: Job 126502174.dbqs01 - Saving a copy of the job script...
-nid001019: 2026-07-01T20:05:18.887234+00:00 nid001019 prologue: Job 126502174.dbqs01 - Checking existing ASLR settings...
-nid001019: 2026-07-01T20:05:18.892628+00:00 nid001019 prologue: Job 126502174.dbqs01 - Checking palsd open file count...
-nid001019: 2026-07-01T20:05:18.972130+00:00 nid001019 PBS_CMD: root : /opt/pbs/bin/qstat -Bf
-nid001019: 2026-07-01T20:05:20.061574+00:00 nid001019 prologue: Job 126502174.dbqs01 - Checking one-shot enabled: False
-nid001019: 2026-07-01T20:05:20.062630+00:00 nid001019 prologue: Job 126502174.dbqs01 - Enabling turboboost...
-nid001019: 2026-07-01T20:05:20.065779+00:00 nid001019 prologue: Job 126502174.dbqs01 - Checking warchk results...
-nid001019: 2026-07-01T20:05:20.068806+00:00 nid001019 prologue: Job 126502174.dbqs01 - Warchk Complete
-nid001019: 2026-07-01T20:05:20.071171+00:00 nid001019 prologue: Job 126502174.dbqs01 - Prologue complete. Execution time: 4 seconds
-nid001019: 2026-07-01T20:10:22.015337+00:00 nid001019 systemd[1]: etc_update.service: Deactivated successfully.
-nid001019: 2026-07-01T20:11:52.397874+00:00 nid001019 PBS_CMD: hananeh.jafary : /opt/pbs/bin/qdel 126502174.dbqs01
-nid001019: 2026-07-01T20:11:52.411130+00:00 nid001019 PBS_CMD: hananeh.jafary : /opt/pbs/bin/qstat -f 126502174
-nid001019: 2026-07-01T20:11:54.090261+00:00 nid001019 epilogue: Job 126502174.dbqs01 complete, running post-job actions.
-nid001019: 2026-07-01T20:11:54.108078+00:00 nid001019 epilogue: MARK: Job 126502174.dbqs01 Complete.
+Job 126519782.dbqs01 - /var/log/messages for job duration:
+2026-07-01A--:--:--.------+--:-- nid003623 #### nid003623 - Job 126519782.dbqs01 Runtime Data from /var/log/messages
+nid003623:  nid003623 #### nid003623 - Job 126519782.dbqs01 Runtime Data from /var/log/messages
+nid003623: 2026-07-01T22:21:05.022820+00:00 nid003623 prologue: MARK: Job 126519782.dbqs01 Start
+nid003623: 2026-07-01T22:21:05.028468+00:00 nid003623 prologue: Job 126519782.dbqs01 nodelist: nid003623
+nid003623: 2026-07-01T22:21:05.031012+00:00 nid003623 prologue: Job 126519782.dbqs01 - Recording pre-execution stats and counters...
+nid003623: 2026-07-01T22:21:05.064062+00:00 nid003623 prologue: Job 126519782.dbqs01 - Killing any stray user processes...
+nid003623: 2026-07-01T22:21:05.143672+00:00 nid003623 prologue: Job 126519782.dbqs01 - Clearing /tmp...
+nid003623: 2026-07-01T22:21:05.160098+00:00 nid003623 prologue: Job 126519782.dbqs01 - Verifying key post-boot workarounds with warchk...
+nid003623: 2026-07-01T22:21:05.187889+00:00 nid003623 WARCHK: root : /sfs/admin/scripts/warchk --batch
+nid003623: 2026-07-01T22:21:05.394963+00:00 nid003623 prologue: Job 126519782.dbqs01 - Recording pre-job memory usage...
+nid003623: 2026-07-01T22:21:05.475785+00:00 nid003623 prologue: Job 126519782.dbqs01 - FRAG_STATE: ** nid003623 : node0_score=27472 node0_state=OK uptime=15173s  Overall=OK **
+nid003623: 2026-07-01T22:21:05.477414+00:00 nid003623 prologue: Job 126519782.dbqs01 - Recording pre-job HSN counters...
+nid003623: 2026-07-01T22:21:05.602575+00:00 nid003623 prologue: Job 126519782.dbqs01 - Recording pre-job Lustre counters...
+nid003623: 2026-07-01T22:21:06.254797+00:00 nid003623 prologue: Job 126519782.dbqs01 - Recording initial NFS client statistics...
+nid003623: 2026-07-01T22:21:06.263543+00:00 nid003623 prologue: Job 126519782.dbqs01 - Saving a copy of the job script...
+nid003623: 2026-07-01T22:21:06.267510+00:00 nid003623 prologue: Job 126519782.dbqs01 - Checking existing ASLR settings...
+nid003623: 2026-07-01T22:21:06.273144+00:00 nid003623 prologue: Job 126519782.dbqs01 - Checking palsd open file count...
+nid003623: 2026-07-01T22:21:06.360318+00:00 nid003623 PBS_CMD: root : /opt/pbs/bin/qstat -Bf
+nid003623: 2026-07-01T22:21:07.383069+00:00 nid003623 prologue: Job 126519782.dbqs01 - Checking one-shot enabled: False
+nid003623: 2026-07-01T22:21:07.384167+00:00 nid003623 prologue: Job 126519782.dbqs01 - Enabling turboboost...
+nid003623: 2026-07-01T22:21:07.387042+00:00 nid003623 prologue: Job 126519782.dbqs01 - Checking warchk results...
+nid003623: 2026-07-01T22:21:07.390134+00:00 nid003623 prologue: Job 126519782.dbqs01 - Warchk Complete
+nid003623: 2026-07-01T22:21:07.392474+00:00 nid003623 prologue: Job 126519782.dbqs01 - Prologue complete. Execution time: 4 seconds
+nid003623: 2026-07-01T22:22:45.040018+00:00 nid003623 systemd[1]: etc_update.service: Deactivated successfully.
+nid003623: 2026-07-01T22:22:45.891807+00:00 nid003623 PBS_CMD: hananeh.jafary : /opt/pbs/bin/qdel 126519782.dbqs01
+nid003623: 2026-07-01T22:22:45.904550+00:00 nid003623 PBS_CMD: hananeh.jafary : /opt/pbs/bin/qstat -f 126519782
+nid003623: 2026-07-01T22:22:47.590702+00:00 nid003623 epilogue: Job 126519782.dbqs01 complete, running post-job actions.
+nid003623: 2026-07-01T22:22:47.609831+00:00 nid003623 epilogue: MARK: Job 126519782.dbqs01 Complete.
 
 ------------------------------------------------------------------
-Job 126502174.dbqs01 - dmesg output for job duration:
-2026-07-01A--:--:--.------+--:-- nid001019 #### nid001019 - Job 126502174.dbqs01 Runtime Data from dmesg
-nid001019:  nid001019 #### nid001019 - Job 126502174.dbqs01 Runtime Data from dmesg
-nid001019: [Wed Jul  1 20:05:17 2026] MARK: Job 126502174.dbqs01 Start
-nid001019: [Wed Jul  1 20:11:54 2026] MARK: Job 126502174.dbqs01 Complete.
+Job 126519782.dbqs01 - dmesg output for job duration:
+2026-07-01A--:--:--.------+--:-- nid003623 #### nid003623 - Job 126519782.dbqs01 Runtime Data from dmesg
+nid003623:  nid003623 #### nid003623 - Job 126519782.dbqs01 Runtime Data from dmesg
+nid003623: [Wed Jul  1 22:21:07 2026] MARK: Job 126519782.dbqs01 Start
+nid003623: [Wed Jul  1 22:22:50 2026] MARK: Job 126519782.dbqs01 Complete.
 
 ------------------------------------------------------------------
-Job 126502174.dbqs01 - Pre/Post job diff on HSN (MLX) Counters:
-2026-07-01A--:--:--.------+--:-- nid001019 #### nid001019 - Job 126502174.dbqs01 HSN0 MLX Counter Post-Job Difference
-nid001019: multicast::             1655536        |  multicast::             1657642        |  Diff:  2106
-nid001019: rx_bytes::              3538238298     |  rx_bytes::              3538564853     |  Diff:  326555
-nid001019: rx_packets::            3074112        |  rx_packets::            3076622        |  Diff:  2510
-nid001019: tx_bytes::              6570544278     |  tx_bytes::              6570656218     |  Diff:  111940
-nid001019: tx_packets::            1749822        |  tx_packets::            1750429        |  Diff:  607
-nid001019: port_rcv_data::         3298272482546  |  port_rcv_data::         3298448131837  |  Diff:  175649291
-nid001019: port_rcv_packets::      5016566742     |  port_rcv_packets::      5016863679     |  Diff:  296937
-nid001019: port_xmit_data::        3264352327800  |  port_xmit_data::        3264629308653  |  Diff:  276980853
-nid001019: port_xmit_packets::     4889391799     |  port_xmit_packets::     4889781696     |  Diff:  389897
-nid001019: unicast_rcv_packets::   5016566742     |  unicast_rcv_packets::   5016863679     |  Diff:  296937
-nid001019: unicast_xmit_packets::  4889391799     |  unicast_xmit_packets::  4889781696     |  Diff:  389897
-nid001019: rx_write_requests::     3709229        |  rx_write_requests::     3716094        |  Diff:  6865
+Job 126519782.dbqs01 - Pre/Post job diff on HSN (MLX) Counters:
+2026-07-01A--:--:--.------+--:-- nid003623 #### nid003623 - Job 126519782.dbqs01 HSN0 MLX Counter Post-Job Difference
+nid003623: multicast::             421358        |  multicast::             421396        |  Diff:  38
+nid003623: rx_bytes::              768313883     |  rx_bytes::              768500918     |  Diff:  187035
+nid003623: rx_packets::            666624        |  rx_packets::            666919        |  Diff:  295
+nid003623: tx_bytes::              948193201     |  tx_bytes::              948252526     |  Diff:  59325
+nid003623: tx_packets::            277052        |  tx_packets::            277464        |  Diff:  412
+nid003623: port_rcv_data::         248656419638  |  port_rcv_data::         248805083193  |  Diff:  148663555
+nid003623: port_rcv_packets::      347963748     |  port_rcv_packets::      348187540     |  Diff:  223792
+nid003623: port_xmit_data::        158103657400  |  port_xmit_data::        158216351530  |  Diff:  112694130
+nid003623: port_xmit_packets::     273215809     |  port_xmit_packets::     273405021     |  Diff:  189212
+nid003623: unicast_rcv_packets::   347963748     |  unicast_rcv_packets::   348187540     |  Diff:  223792
+nid003623: unicast_xmit_packets::  273215809     |  unicast_xmit_packets::  273405021     |  Diff:  189212
+nid003623: rx_write_requests::     359989        |  rx_write_requests::     366734        |  Diff:  6745
 
 ------------------------------------------------------------------
-Job 126502174.dbqs01 - Pre/Post job diff for Lustre Stats:
-2026-07-01A--:--:--.------+--:-- nid001019 #### nid001019 - Job 126502174.dbqs01 Lustre Counters Post-Job Difference
-nid001019: ### LustreStats: Multi-value diffs correspond to [samples min max total sum_of_squares] ###
-nid001019: /lfs/h1 vah1-ffff9e28d3b00000 :
-nid001019:   h1:    snapshot_time: Diffs: [                                               397]  secs 
-nid001019:   h1:     elapsed_time: Diffs: [                                               397]  secs 
-nid001019:   h1:            ioctl: Diffs: [                                                 2]  reqs 
-nid001019:   h1:          getattr: Diffs: [                                     15 0 0 61 775]  Avg_usec :         4.06
-nid001019:   h1: inode_permission: Diffs: [                                         2 0 0 2 2]  Avg_usec :         1.00
-nid001019:   h1:        opencount: Diffs: [                                         2 0 0 2 2]  Avg_reqs :         1.00
-nid001019: ----------------
-nid001019: /lfs/h2 vah2-ffff9e28d3a6a000 :
-nid001019:   h2:    snapshot_time: Diffs: [                                               397]  secs 
-nid001019:   h2:     elapsed_time: Diffs: [                                               396]  secs 
-nid001019:   h2:       read_bytes: Diffs: [            150732 0 0 2480290668 4120813464839074]  Avg_bytes:     16454.97
-nid001019:   h2:      write_bytes: Diffs: [            901688 0 0 1205799772 4105119032878002]  Avg_bytes:      1337.26
-nid001019:   h2:             read: Diffs: [                  138264 0 0 12083276 141658230146]  Avg_usec :        87.39
-nid001019:   h2:            write: Diffs: [                 910643 0 0 10001140 5392768737506]  Avg_usec :        10.98
-nid001019:   h2:            ioctl: Diffs: [                                               518]  reqs 
-nid001019:   h2:             open: Diffs: [                           1364 0 0 99295 93539717]  Avg_usec :        72.79
-nid001019:   h2:            close: Diffs: [                          1365 0 0 136898 59468170]  Avg_usec :       100.29
-nid001019:   h2:             seek: Diffs: [                        521 0 0 237779 12089995771]  Avg_usec :       456.38
-nid001019:   h2:          readdir: Diffs: [                               92 0 0 8186 2432108]  Avg_usec :        88.97
-nid001019:   h2:          setattr: Diffs: [                        49 0 0 754461 510870906137]  Avg_usec :     15397.16
-nid001019:   h2:         truncate: Diffs: [                             61 0 0 26605 55490033]  Avg_usec :       436.14
-nid001019:   h2:            flock: Diffs: [                                24 0 0 1217 125075]  Avg_usec :        50.70
-nid001019:   h2:          getattr: Diffs: [                          3885 0 0 198665 65370971]  Avg_usec :        51.13
-nid001019:   h2:           unlink: Diffs: [                               12 0 0 3539 1054687]  Avg_usec :       294.91
-nid001019:   h2:            mkdir: Diffs: [                               44 0 0 9079 1942547]  Avg_usec :       206.34
-nid001019:   h2:            rmdir: Diffs: [                                12 0 0 1725 250721]  Avg_usec :       143.75
-nid001019:   h2:            mknod: Diffs: [                            437 0 0 86260 19900548]  Avg_usec :       197.39
-nid001019:   h2:           rename: Diffs: [                               49 0 0 9078 1759530]  Avg_usec :       185.26
-nid001019:   h2:         setxattr: Diffs: [                                49 0 0 3739 294711]  Avg_usec :        76.30
-nid001019:   h2:         getxattr: Diffs: [                             487 0 0 38353 4305079]  Avg_usec :        78.75
-nid001019:   h2:    getxattr_hits: Diffs: [                                                73]  reqs 
-nid001019:   h2: inode_permission: Diffs: [                              51965 0 0 7477 26657]  Avg_usec :          .14
-nid001019:   h2:        opencount: Diffs: [                                1366 0 0 2503 7753]  Avg_reqs :         1.83
-nid001019: ----------------
-nid001019: /lfs/f1 vaf1-ffff9e28d2de9000 :
-nid001019:   f1:    snapshot_time: Diffs: [                                               397]  secs 
-nid001019:   f1:     elapsed_time: Diffs: [                                               396]  secs 
-nid001019:   f1:            ioctl: Diffs: [                                                 2]  reqs 
-nid001019:   f1:          getattr: Diffs: [                                     11 0 0 29 161]  Avg_usec :         2.63
-nid001019:   f1: inode_permission: Diffs: [                                         2 0 0 2 2]  Avg_usec :         1.00
-nid001019:   f1:        opencount: Diffs: [                                         2 0 0 2 2]  Avg_reqs :         1.00
-nid001019: ----------------
-nid001019: /lfs/f2 vaf2-ffff9e290ba2f000 :
-nid001019:   f2:    snapshot_time: Diffs: [                                               397]  secs 
-nid001019:   f2:     elapsed_time: Diffs: [                                               396]  secs 
-nid001019:   f2:       read_bytes: Diffs: [                             20 0 0 26117 69817349]  Avg_bytes:      1305.85
-nid001019:   f2:      write_bytes: Diffs: [                             17 0 0 23453 66604919]  Avg_bytes:      1379.58
-nid001019:   f2:             read: Diffs: [                                   20 0 0 273 7535]  Avg_usec :        13.65
-nid001019:   f2:            write: Diffs: [                              448 0 0 8880 5370400]  Avg_usec :        19.82
-nid001019:   f2:            ioctl: Diffs: [                                                14]  reqs 
-nid001019:   f2:             open: Diffs: [                                23 0 0 1253 616271]  Avg_usec :        54.47
-nid001019:   f2:            close: Diffs: [                                23 0 0 1688 252276]  Avg_usec :        73.39
-nid001019:   f2:             seek: Diffs: [                                        21 0 0 1 1]  Avg_usec :          .04
-nid001019:   f2:          readdir: Diffs: [                                  2 0 0 403 162409]  Avg_usec :       201.50
-nid001019:   f2:          getattr: Diffs: [                               38 0 0 4780 1880054]  Avg_usec :       125.78
-nid001019:   f2:            mknod: Diffs: [                               11 0 0 3393 1659777]  Avg_usec :       308.45
-nid001019:   f2:         getxattr: Diffs: [                                11 0 0 1297 164209]  Avg_usec :       117.90
-nid001019:   f2: inode_permission: Diffs: [                                  138 0 0 316 5946]  Avg_usec :         2.28
-nid001019:   f2:        opencount: Diffs: [                                     25 0 0 56 230]  Avg_reqs :         2.24
-nid001019: ----------------
-nid001019: /lfs/h3 vah3-ffff9e28d2dee800 :
-nid001019:   h3:    snapshot_time: Diffs: [                                               397]  secs 
-nid001019:   h3:     elapsed_time: Diffs: [                                               397]  secs 
-nid001019:   h3:            ioctl: Diffs: [                                                 2]  reqs 
-nid001019:   h3:          getattr: Diffs: [                                      7 0 0 25 157]  Avg_usec :         3.57
-nid001019:   h3: inode_permission: Diffs: [                                         2 0 0 2 2]  Avg_usec :         1.00
-nid001019:   h3:        opencount: Diffs: [                                         2 0 0 2 2]  Avg_reqs :         1.00
-nid001019: ----------------
-nid001019: /apps vaf2-ffff9e29209a9000 :
-nid001019: apps:    snapshot_time: Diffs: [                                               397]  secs 
-nid001019: apps:     elapsed_time: Diffs: [                                               397]  secs 
-nid001019: apps:       read_bytes: Diffs: [        13427 0 4194304 503347193 1729854505983367]  Avg_bytes:     37487.68
-nid001019: apps:             read: Diffs: [                        13320 0 0 723737 683879235]  Avg_usec :        54.33
-nid001019: apps:            ioctl: Diffs: [                                              6008]  reqs 
-nid001019: apps:             open: Diffs: [                       13592 0 0 1071453 250528521]  Avg_usec :        78.82
-nid001019: apps:            close: Diffs: [                        13592 0 0 901449 185469303]  Avg_usec :        66.32
-nid001019: apps:             mmap: Diffs: [                            4055 0 0 32319 2010603]  Avg_usec :         7.97
-nid001019: apps:       page_fault: Diffs: [                               61212 0 0 4704 8282]  Avg_usec :          .07
-nid001019: apps:             seek: Diffs: [                               11581 0 0 455 11163]  Avg_usec :          .03
-nid001019: apps:          readdir: Diffs: [                         6764 0 0 327661 256999547]  Avg_usec :        48.44
-nid001019: apps:          getattr: Diffs: [                       72360 0 0 1293304 234040424]  Avg_usec :        17.87
-nid001019: apps:         getxattr: Diffs: [                                  13 0 0 197 16665]  Avg_usec :        15.15
-nid001019: apps:    getxattr_hits: Diffs: [                                                11]  reqs 
-nid001019: apps: inode_permission: Diffs: [                         1034133 0 0 152011 298145]  Avg_usec :          .14
-nid001019: apps:        opencount: Diffs: [                            13594 0 0 67366 703462]  Avg_reqs :         4.95
-nid001019: ----------------
+Job 126519782.dbqs01 - Pre/Post job diff for Lustre Stats:
+2026-07-01A--:--:--.------+--:-- nid003623 #### nid003623 - Job 126519782.dbqs01 Lustre Counters Post-Job Difference
+nid003623: ### LustreStats: Multi-value diffs correspond to [samples min max total sum_of_squares] ###
+nid003623: /lfs/h1 vah1-ffff8f0753513800 :
+nid003623:   h1:    snapshot_time: Diffs: [                                               102]  secs 
+nid003623:   h1:     elapsed_time: Diffs: [                                               102]  secs 
+nid003623:   h1:            ioctl: Diffs: [                                                 2]  reqs 
+nid003623:   h1:          getattr: Diffs: [                                     15 0 0 46 384]  Avg_usec :         3.06
+nid003623:   h1: inode_permission: Diffs: [                                         2 0 0 2 2]  Avg_usec :         1.00
+nid003623:   h1:        opencount: Diffs: [                                         2 0 0 2 2]  Avg_reqs :         1.00
+nid003623: ----------------
+nid003623: /lfs/h2 vah2-ffff8f375aa74800 :
+nid003623:   h2:    snapshot_time: Diffs: [                                               102]  secs 
+nid003623:   h2:     elapsed_time: Diffs: [                                               102]  secs 
+nid003623:   h2:       read_bytes: Diffs: [              52943 0 0 884287643 1420340394495059]  Avg_bytes:     16702.63
+nid003623:   h2:      write_bytes: Diffs: [             12876 -1 0 419181451 1414534653208561]  Avg_bytes:     32555.25
+nid003623:   h2:             read: Diffs: [                    48752 0 0 6381936 202405275522]  Avg_usec :       130.90
+nid003623:   h2:            write: Diffs: [                     15568 0 0 1117115 56732739095]  Avg_usec :        71.75
+nid003623:   h2:            ioctl: Diffs: [                                               271]  reqs 
+nid003623:   h2:             open: Diffs: [                            455 0 0 41449 60307041]  Avg_usec :        91.09
+nid003623:   h2:            close: Diffs: [                  456 0 282450 632829 160797354427]  Avg_usec :      1387.78
+nid003623:   h2:             seek: Diffs: [                        200 0 0 197512 19061177210]  Avg_usec :       987.56
+nid003623:   h2:          readdir: Diffs: [                               30 0 0 3666 1219952]  Avg_usec :       122.20
+nid003623:   h2:          setattr: Diffs: [                               14 0 0 9764 6826610]  Avg_usec :       697.42
+nid003623:   h2:         truncate: Diffs: [                              28 0 0 11282 6686588]  Avg_usec :       402.92
+nid003623:   h2:            flock: Diffs: [                                   8 0 0 542 77926]  Avg_usec :        67.75
+nid003623:   h2:          getattr: Diffs: [                           1374 0 0 74795 20122605]  Avg_usec :        54.43
+nid003623:   h2:           unlink: Diffs: [                                 4 0 0 1251 392351]  Avg_usec :       312.75
+nid003623:   h2:            mkdir: Diffs: [                                16 0 0 3742 929942]  Avg_usec :       233.87
+nid003623:   h2:            rmdir: Diffs: [                              4 -1784 0 666 111050]  Avg_usec :       166.50
+nid003623:   h2:            mknod: Diffs: [                            143 0 0 46179 65880405]  Avg_usec :       322.93
+nid003623:   h2:           rename: Diffs: [                                14 0 0 3154 837706]  Avg_usec :       225.28
+nid003623:   h2:         setxattr: Diffs: [                                14 0 0 1287 122753]  Avg_usec :        91.92
+nid003623:   h2:         getxattr: Diffs: [                             160 0 0 21104 5135824]  Avg_usec :       131.90
+nid003623:   h2:    getxattr_hits: Diffs: [                                                22]  reqs 
+nid003623:   h2: inode_permission: Diffs: [                              17418 0 0 2868 14116]  Avg_usec :          .16
+nid003623:   h2:        opencount: Diffs: [                                  457 0 0 801 2481]  Avg_reqs :         1.75
+nid003623: ----------------
+nid003623: /lfs/f1 vaf1-ffff8f375aa70800 :
+nid003623:   f1:    snapshot_time: Diffs: [                                               102]  secs 
+nid003623:   f1:     elapsed_time: Diffs: [                                               102]  secs 
+nid003623:   f1:            ioctl: Diffs: [                                                 2]  reqs 
+nid003623:   f1:          getattr: Diffs: [                                     11 0 0 26 140]  Avg_usec :         2.36
+nid003623:   f1: inode_permission: Diffs: [                                         2 0 0 2 2]  Avg_usec :         1.00
+nid003623:   f1:        opencount: Diffs: [                                         2 0 0 2 2]  Avg_reqs :         1.00
+nid003623: ----------------
+nid003623: /lfs/f2 vaf2-ffff8f375aa71000 :
+nid003623:   f2:    snapshot_time: Diffs: [                                               102]  secs 
+nid003623:   f2:     elapsed_time: Diffs: [                                               102]  secs 
+nid003623:   f2:       read_bytes: Diffs: [                             20 0 0 28164 82333554]  Avg_bytes:      1408.20
+nid003623:   f2:      write_bytes: Diffs: [                             16 0 0 18326 53135456]  Avg_bytes:      1145.37
+nid003623:   f2:             read: Diffs: [                                   20 0 0 305 9573]  Avg_usec :        15.25
+nid003623:   f2:            write: Diffs: [                              346 0 0 8151 4423367]  Avg_usec :        23.55
+nid003623:   f2:            ioctl: Diffs: [                                                14]  reqs 
+nid003623:   f2:             open: Diffs: [                                 23 0 0 853 175421]  Avg_usec :        37.08
+nid003623:   f2:            close: Diffs: [                                23 0 0 2023 545993]  Avg_usec :        87.95
+nid003623:   f2:             seek: Diffs: [                                        21 0 0 2 4]  Avg_usec :          .09
+nid003623:   f2:          readdir: Diffs: [                                  2 0 0 383 146689]  Avg_usec :       191.50
+nid003623:   f2:          getattr: Diffs: [                               38 0 0 4654 1722472]  Avg_usec :       122.47
+nid003623:   f2:            mknod: Diffs: [                                11 0 0 2712 710424]  Avg_usec :       246.54
+nid003623:   f2:         getxattr: Diffs: [                               11 -3 0 1367 184795]  Avg_usec :       124.27
+nid003623:   f2: inode_permission: Diffs: [                                  138 0 0 390 9130]  Avg_usec :         2.82
+nid003623:   f2:        opencount: Diffs: [                                     25 0 0 56 230]  Avg_reqs :         2.24
+nid003623: ----------------
+nid003623: /lfs/h3 vah3-ffff8f07553c0800 :
+nid003623:   h3:    snapshot_time: Diffs: [                                               103]  secs 
+nid003623:   h3:     elapsed_time: Diffs: [                                               102]  secs 
+nid003623:   h3:            ioctl: Diffs: [                                                 2]  reqs 
+nid003623:   h3:          getattr: Diffs: [                                       7 0 0 18 86]  Avg_usec :         2.57
+nid003623:   h3: inode_permission: Diffs: [                                         2 0 0 2 2]  Avg_usec :         1.00
+nid003623:   h3:        opencount: Diffs: [                                         2 0 0 2 2]  Avg_reqs :         1.00
+nid003623: ----------------
+nid003623: /apps vaf2-ffff8f07539bd800 :
+nid003623: apps:    snapshot_time: Diffs: [                                               103]  secs 
+nid003623: apps:     elapsed_time: Diffs: [                                               103]  secs 
+nid003623: apps:       read_bytes: Diffs: [          5769 0 4194304 164606752 576126905421542]  Avg_bytes:     28532.97
+nid003623: apps:             read: Diffs: [                         5662 0 0 575369 616703279]  Avg_usec :       101.61
+nid003623: apps:            ioctl: Diffs: [                                              1772]  reqs 
+nid003623: apps:             open: Diffs: [                          7539 0 0 339049 76114507]  Avg_usec :        44.97
+nid003623: apps:            close: Diffs: [                          7539 0 0 335204 53182140]  Avg_usec :        44.46
+nid003623: apps:             mmap: Diffs: [                           1174 0 201 10569 908251]  Avg_usec :         9.00
+nid003623: apps:       page_fault: Diffs: [                               18306 0 0 2014 3858]  Avg_usec :          .11
+nid003623: apps:             seek: Diffs: [                                 3326 0 0 201 8101]  Avg_usec :          .06
+nid003623: apps:          readdir: Diffs: [                         5670 0 0 308953 279235863]  Avg_usec :        54.48
+nid003623: apps:          getattr: Diffs: [                        29457 0 0 874927 185050605]  Avg_usec :        29.70
+nid003623: apps:         getxattr: Diffs: [                                   4 0 0 179 15831]  Avg_usec :        44.75
+nid003623: apps:    getxattr_hits: Diffs: [                                                 2]  reqs 
+nid003623: apps: inode_permission: Diffs: [                           406736 0 0 65577 131257]  Avg_usec :          .16
+nid003623: apps:        opencount: Diffs: [                             7541 0 0 52925 654417]  Avg_reqs :         7.01
+nid003623: ----------------
 
 ------------------------------------------------------------------
-### Job 126502174.dbqs01 - NFS Statistics for job duration:
-#### 2026-07-01A--:--:--.------+--:-- nid001019 Job 126502174.dbqs01 - DEBUG-NFS: Unable to find NFS stats file: /lfs/f2/hpc/jobdata/126502174/nfsstats.126502174.nid001019
+### Job 126519782.dbqs01 - NFS Statistics for job duration:
+#### 2026-07-01A--:--:--.------+--:-- nid003623 Job 126519782.dbqs01 - DEBUG-NFS: Unable to find NFS stats file: /lfs/f2/hpc/jobdata/126519782/nfsstats.126519782.nid003623
 
 ------------------------------------------------------------------
-### Job 126502174.dbqs01 - Lustre evictions (if present):
+### Job 126519782.dbqs01 - Lustre evictions (if present):
 
 ------------------------------------------------------------------
-### Job 126502174.dbqs01 - Exit status is 271
+### Job 126519782.dbqs01 - Exit status is 271
 
 ------------------------------------------------------------------
-Job 126502174.dbqs01 - Job summary:
-Job Id: 126502174.dbqs01
+Job 126519782.dbqs01 - Job summary:
+Job Id: 126519782.dbqs01
     Job_Name = jevs_hurricane_global_det_tcgen_stats
-    Job_Owner = hananeh.jafary@dlogin06
-    resources_used.cpupercent = 98
-    resources_used.cput = 00:05:15
-    resources_used.mem = 2064900kb
+    Job_Owner = hananeh.jafary@dlogin04.dogwood.wcoss2.ncep.noaa.gov
+    resources_used.cpupercent = 78
+    resources_used.cput = 00:00:37
+    resources_used.mem = 992600kb
     resources_used.ncpus = 1
-    resources_used.vmem = 901768kb
-    resources_used.walltime = 00:06:33
+    resources_used.vmem = 896612kb
+    resources_used.walltime = 00:01:37
     job_state = R
     queue = dev
     server = dbqs01
     Account_Name = VERF-DEV
     Checkpoint = u
-    ctime = Wed Jul  1 20:05:13 2026
-    Error_Path = dlogin06:/lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/EVS/dev/
-	drivers/scripts/stats/hurricane/jevs_hurricane_global_det_tcgen_stats.e
-	126502174
-    exec_host = nid001019/0
-    exec_vnode = (nid001019:ncpus=1:mem=4194304kb)
+    ctime = Wed Jul  1 22:17:54 2026
+    Error_Path = dlogin04.dogwood.wcoss2.ncep.noaa.gov:/lfs/h2/emc/ens/noscrub/
+	hananeh.jafary/UIFCW/EVS/dev/drivers/scripts/stats/hurricane/jevs_hurri
+	cane_global_det_tcgen_stats.e126519782
+    exec_host = nid003623/0
+    exec_vnode = (nid003623:ncpus=1:mem=4194304kb)
     Hold_Types = n
     Join_Path = oe
     Keep_Files = oed
     Mail_Points = a
-    mtime = Wed Jul  1 20:11:56 2026
-    Output_Path = dlogin06:/lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/EVS/dev
-	/drivers/scripts/stats/hurricane/jevs_hurricane_global_det_tcgen_stats.
-	o126502174
+    mtime = Wed Jul  1 22:22:46 2026
+    Output_Path = dlogin04.dogwood.wcoss2.ncep.noaa.gov:/lfs/h2/emc/ens/noscrub
+	/hananeh.jafary/UIFCW/EVS/dev/drivers/scripts/stats/hurricane/jevs_hurr
+	icane_global_det_tcgen_stats.o126519782
     Priority = 0
-    qtime = Wed Jul  1 20:05:14 2026
+    qtime = Wed Jul  1 22:17:54 2026
     Rerunable = False
     Resource_List.alvl = 2
     Resource_List.aslr = True
@@ -2427,84 +1980,81 @@ Job Id: 126502174.dbqs01
     Resource_List.turbo = True
     Resource_List.walltime = 00:10:00
     schedselect = 1:ncpus=1:mem=4GB:prepost=False
-    stime = Wed Jul  1 20:05:16 2026
-    session_id = 3468403
+    stime = Wed Jul  1 22:21:03 2026
+    session_id = 65035
     Shell_Path_List = /bin/bash
     jobdir = /u/hananeh.jafary
     substate = 42
     Variable_List = PBS_O_HOME=/u/hananeh.jafary,PBS_O_LANG=en_US.UTF-8,
 	PBS_O_LOGNAME=hananeh.jafary,
-	PBS_O_PATH=/apps/ops/prod/libs/intel/19.1.3.304/grib_util/1.2.2/bin:/a
-	pps/spack/libjpeg/9c/intel/19.1.3.304/jkr3isi257ktoouprwaxcn4twtye747z/
-	bin:/pe/intel/compilers_and_libraries_2020.4.304/linux/bin/intel64:/pe/
-	intel/compilers_and_libraries_2020.4.304/linux/bin:/pe/intel/compilers_
-	and_libraries_2020.4.304/linux/mpi/intel64/bin:/pe/intel/debugger_2020/
-	gdb/intel64/bin:/apps/ops/test/nco/core/rocoto.v1.3.5/bin:/apps/spack/i
-	magemagick/7.0.8-7/cce/11.0.1/fyjvsbwngyzlsiluc4udbnxkhlbwkzc3/bin:.:/o
-	pt/cray/bin:/usr/local/bin:/usr/bin:/bin:/opt/c3/bin:/opt/pbs/bin:/sbin
-	:/usr/sbin:/etc:/u/hananeh.jafary/bin,
-	PBS_O_MAIL=/var/spool/mail/hananeh.jafary,PBS_O_SHELL=/bin/bash,
+	PBS_O_PATH=/apps/spack/python/3.12.0/intel/19.1.3.304/r7ia355o3tnbbmfe
+	xnp3bcsyl2r4ai47/bin:/apps/ops/prod/libs/intel/19.1.3.304/grib_util/1.2
+	.2/bin:/apps/spack/libjpeg/9c/intel/19.1.3.304/jkr3isi257ktoouprwaxcn4t
+	wtye747z/bin:/pe/intel/compilers_and_libraries_2020.4.304/linux/bin/int
+	el64:/pe/intel/compilers_and_libraries_2020.4.304/linux/bin:/pe/intel/c
+	ompilers_and_libraries_2020.4.304/linux/mpi/intel64/bin:/pe/intel/debug
+	ger_2020/gdb/intel64/bin:/apps/ops/test/nco/core/rocoto.v1.3.5/bin:/app
+	s/spack/imagemagick/7.0.8-7/cce/11.0.1/fyjvsbwngyzlsiluc4udbnxkhlbwkzc3
+	/bin:.:/opt/cray/bin:/u/hananeh.jafary/.local/bin:/usr/local/bin:/usr/b
+	in:/bin:/opt/c3/bin:/opt/pbs/bin:/sbin:/usr/sbin:/etc:/u/hananeh.jafary
+	/bin,PBS_O_MAIL=/var/spool/mail/hananeh.jafary,PBS_O_SHELL=/bin/bash,
 	PBS_O_WORKDIR=/lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/EVS/dev/dri
 	vers/scripts/stats/hurricane,PBS_O_SYSTEM=Linux,PBS_O_QUEUE=dev,
-	PBS_O_HOST=dlogin06
+	PBS_O_HOST=dlogin04.dogwood.wcoss2.ncep.noaa.gov
     euser = hananeh.jafary
     egroup = emc
-    hashname = 126502174.dbqs01
-    queue_rank = 1782936314461966
+    hashname = 126519782.dbqs01
+    queue_rank = 1782944274330887
     queue_type = E
-    comment = Job run at Wed Jul 01 at 20:05 on (nid001019:ncpus=1:mem=4194304k
-	b) and terminated by hananeh.jafary@nid001019.dogwood.wcoss2.ncep.noaa.
+    comment = Job run at Wed Jul 01 at 22:21 on (nid003623:ncpus=1:mem=4194304k
+	b) and terminated by hananeh.jafary@nid003623.dogwood.wcoss2.ncep.noaa.
 	gov
-    etime = Wed Jul  1 20:05:14 2026
+    etime = Wed Jul  1 22:17:54 2026
     umask = 22
     run_count = 6
-    eligible_time = 00:00:09
+    eligible_time = 00:03:15
     accrue_type = 3
     Submit_arguments = jevs_hurricane_global_det_tcgen_stats.sh
     project = VERF-DEV
     run_version = 1
-    Submit_Host = dlogin06
+    Submit_Host = dlogin04.dogwood.wcoss2.ncep.noaa.gov
     server_instance_id = dbqs01.dogwood.wcoss2.ncep.noaa.gov:15001
 
 
 ------------------------------------------------------------------
-Job 126502174.dbqs01 - PBS tracejob output (for parent mom node only):
+Job 126519782.dbqs01 - PBS tracejob output (for parent mom node only):
 
-Job: 126502174.dbqs01
+Job: 126519782.dbqs01
 
-07/01/2026 20:05:16  M    update_job_usage: CPU usage: 0.000 secs
-07/01/2026 20:05:16  M    update_job_usage: cpupercent initialized to zero
-07/01/2026 20:05:16  M    update_job_usage: Memory usage: mem=0b
-07/01/2026 20:05:20  M    Started, pid = 3468403
-07/01/2026 20:06:46  M    update_job_usage: CPU usage: 78.000 secs
-07/01/2026 20:06:46  M    update_job_usage: 126502174.dbqs01 measured interval cpupercent 87 increased job cpupercent to 87
-07/01/2026 20:06:46  M    update_job_usage: Memory usage: mem=1217096kb
-07/01/2026 20:08:47  M    update_job_usage: CPU usage: 197.000 secs
-07/01/2026 20:08:47  M    update_job_usage: 126502174.dbqs01 measured interval cpupercent 98 increased job cpupercent to 98
-07/01/2026 20:08:47  M    update_job_usage: Memory usage: mem=1795840kb
-07/01/2026 20:10:48  M    update_job_usage: CPU usage: 315.000 secs
-07/01/2026 20:10:48  M    update_job_usage: Memory usage: mem=2064900kb
-07/01/2026 20:11:53  M    signal job request received
-07/01/2026 20:11:53  M    signal job with TermJob
-07/01/2026 20:11:53  M    kill_job
-07/01/2026 20:11:53  M    task 00000001 terminated
-07/01/2026 20:11:53  M    Terminated
-07/01/2026 20:11:53  M    task 00000001 cput=00:05:35
-07/01/2026 20:11:53  M    kill_job
-07/01/2026 20:11:53  M    nid001019 cput=00:05:15 mem=2064900kb
-07/01/2026 20:11:53  M    update_job_usage: CPU usage: 378.000 secs
-07/01/2026 20:11:53  M    update_job_usage: Memory usage: mem=2219440kb
+07/01/2026 22:21:03  M    update_job_usage: CPU usage: 0.000 secs
+07/01/2026 22:21:03  M    update_job_usage: cpupercent initialized to zero
+07/01/2026 22:21:03  M    update_job_usage: Memory usage: mem=0b
+07/01/2026 22:21:07  M    Started, pid = 65035
+07/01/2026 22:21:50  M    update_job_usage: CPU usage: 37.000 secs
+07/01/2026 22:21:50  M    update_job_usage: 126519782.dbqs01 measured interval cpupercent 78 increased job cpupercent to 78
+07/01/2026 22:21:50  M    update_job_usage: Memory usage: mem=992600kb
+07/01/2026 22:22:46  M    signal job request received
+07/01/2026 22:22:46  M    signal job with TermJob
+07/01/2026 22:22:46  M    kill_job
+07/01/2026 22:22:46  M    task 00000001 terminated
+07/01/2026 22:22:46  M    Terminated
+07/01/2026 22:22:46  M    task 00000001 cput=00:01:28
+07/01/2026 22:22:46  M    kill_job
+07/01/2026 22:22:46  M    nid003623 cput=00:00:37 mem=992600kb
+07/01/2026 22:22:47  M    update_job_usage: CPU usage: 89.000 secs
+07/01/2026 22:22:47  M    update_job_usage: 126519782.dbqs01 measured interval cpupercent 92 increased job cpupercent to 92
+07/01/2026 22:22:47  M    update_job_usage: Memory usage: mem=1532748kb
 
 ------------------------------------------------------------------
-To see full PBS log data, run: /sfs/admin/scripts/tracejob.sh 126502174.dbqs01
+To see full PBS log data, run: /sfs/admin/scripts/tracejob.sh 126519782.dbqs01
 
 ==================================================================
 END - DEBUG INFO
 ==================================================================
 
-Job 126502174.dbqs01 - Epilogue DEBUG complete. DEBUG Execution time: 5 seconds
-Job 126502174.dbqs01 - Epilogue complete. Execution time: 7 seconds
-##### Job 126502174.dbqs01 - PBS Job Script:
+Job 126519782.dbqs01 - Epilogue DEBUG complete. DEBUG Execution time: 4 seconds
+Job 126519782.dbqs01 - Epilogue complete. Execution time: 6 seconds
+##### Job 126519782.dbqs01 - PBS Job Script:
 (Note: Duplicate #PBS entries are a function how PBS interprets and caches the original job script.)
 
 #PBS -S /bin/bash
