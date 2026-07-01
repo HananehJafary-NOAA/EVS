@@ -1,11 +1,11 @@
 #!/bin/bash
 set -x
-export PS4=' + exevs_hurricane_global_det_tcgen_stats.sh line $LINENO: '
+export PS4=' + exevs_hurricane_global_ens_tcgen_stats.sh line $LINENO: '
 
 export MetOnMachine=${MetOnMachine:-$MET_ROOT}
 export YEAR=${YYYY}
 export basinlist="al ep wp"
-export modellist="gfs ecmwf cmc"
+export modellist="gefs eens"
 
 for basin in $basinlist; do
 ### basin do loop start
@@ -36,21 +36,18 @@ if [ ${basin} = "al" ]; then
   export BASIN_MASK="AL"
   grep "AL,  9" ${INPUT}/ALLgenesis_${YEAR} > ${INPUT}/genesis_${YEAR}
   grep "HC,"  ${INPUT}/ALLgenesis_${YEAR} >> ${INPUT}/genesis_${YEAR}
-  grep "TG,"  ${INPUT}/ALLgenesis_${YEAR} >> ${INPUT}/genesis_${YEAR}
 elif [ ${basin} = "ep" ]; then
   cp ${COMINadeckNHC}/aep*.dat ${INPUT}/.
   cp ${COMINbdeckNHC}/bep*.dat ${INPUT}/.
   export BASIN_MASK="EP"
   grep "EP,  9" ${INPUT}/ALLgenesis_${YEAR} > ${INPUT}/genesis_${YEAR}
   grep "HC,"  ${INPUT}/ALLgenesis_${YEAR} >> ${INPUT}/genesis_${YEAR}
-  grep "TG,"  ${INPUT}/ALLgenesis_${YEAR} >> ${INPUT}/genesis_${YEAR}
 elif [ ${basin} = "wp" ]; then
   cp ${COMINadeckJTWC}/awp*.dat ${INPUT}/.
   cp ${COMINbdeckJTWC}/bwp*.dat ${INPUT}/.
   export BASIN_MASK="WP"
   grep "WP,  9" ${INPUT}/ALLgenesis_${YEAR} > ${INPUT}/genesis_${YEAR}
   grep "HC,"  ${INPUT}/ALLgenesis_${YEAR} >> ${INPUT}/genesis_${YEAR}
-  grep "TG,"  ${INPUT}/ALLgenesis_${YEAR} >> ${INPUT}/genesis_${YEAR}
 fi
 
 #--- run for TC_gen

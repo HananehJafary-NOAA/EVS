@@ -1,5 +1,5 @@
 #PBS -S /bin/bash
-#PBS -N jevs_hurricane_global_det_tcgen_stats
+#PBS -N jevs_hurricane_global_ens_tcgen_stats
 #PBS -j oe
 #PBS -A VERF-DEV
 #PBS -q dev
@@ -17,7 +17,7 @@ evs_ver_2d=$(echo $evs_ver | cut -d'.' -f1-2)
 
 export NET=evs
 export COMPONENT=hurricane
-export RUN=global_det
+export RUN=global_ens
 export STEP=stats
 export VERIF_CASE=tcgen
 export envir=dev
@@ -41,6 +41,7 @@ export COMINadeckNHC=/lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/
 export COMINbdeckNHC=/lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck
 export COMINadeckJTWC=/lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/adeck
 export COMINbdeckJTWC=/lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/bdeck
+# update this line --> export COMINedeckNHC=/lfs/h2/emc/ens/noscrub/hananeh.jafary/UIFCW/raw_data/2025/edeck
 
 export DATAROOT=/lfs/h2/emc/stmp/$USER/evs_test/$envir/tmp
 export COMOUT=/lfs/h2/emc/ens/noscrube/hananeh.jafary/UIFCW/$NET/$evs_ver_2d
